@@ -1,0 +1,12 @@
+---
+
+- hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: git
+      homebrew: name=git state=present
+      tags: git
+
+    - include: playbooks/vim.yml
+      tags: dotfiles, vim
