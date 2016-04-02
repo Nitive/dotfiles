@@ -33,15 +33,23 @@ NeoBundle 'vim-airline/vim-airline-themes'
 " and ds{what} - remove them
 NeoBundle 'tpope/vim-surround'
 
+
+
+"--------------------------------------------------
+" Syntax highlighting
+
 " JavaScript syntax highlighting
 " NeoBundle 'mxw/vim-jsx'
 
-" Improve javascript syntax higlighting, needed for good folding,
-" and good-looking javascritp code
+" Improve javascript syntax highlighting, needed for good folding,
+" and good-looking javascript code
 NeoBundle 'jelera/vim-javascript-syntax'
 
 " Ansible playbooks syntax highlighting
 NeoBundle 'pearofducks/ansible-vim'
+
+" Vagrantfile and :Vagrant autocompetition
+NeoBundle 'hashivim/vim-vagrant'
 
 
 " syntax checker
