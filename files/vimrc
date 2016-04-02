@@ -36,9 +36,12 @@ NeoBundle 'tpope/vim-surround'
 " JavaScript syntax highlighting
 " NeoBundle 'mxw/vim-jsx'
 
-" Improve javascritp syntax higlighting, needed for good folding,
+" Improve javascript syntax higlighting, needed for good folding,
 " and good-looking javascritp code
 NeoBundle 'jelera/vim-javascript-syntax'
+
+" Ansible playbooks syntax highlighting
+NeoBundle 'pearofducks/ansible-vim'
 
 
 " syntax checker
