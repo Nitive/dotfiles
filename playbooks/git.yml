@@ -1,0 +1,7 @@
+- name: git
+  homebrew: name=git state=present
+  tags: git
+
+- name: vim config
+  file: src={{ playbook_dir }}/files/gitexcludes dest=~/.gitexcludes state=link force=true
+  tags: git, dotfiles
