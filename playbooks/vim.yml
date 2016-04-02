@@ -4,8 +4,8 @@
 
 - name: vim plugin manager
   git:
-    repo: "https://github.com/gmarik/Vundle.vim.git"
-    dest: ~/.vim/bundle/Vundle.vim
+    repo: "https://github.com/Shougo/neobundle.vim.git"
+    dest: ~/.vim/bundle/neobundle.vim
     version: master
     update: no
   tags: vim
