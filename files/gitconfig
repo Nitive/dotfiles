@@ -1,0 +1,34 @@
+[core]
+  excludesfile = /Users/nitive/.gitexcludes
+  quotepath = false
+  autocrlf = false
+  safecrlf = true
+  mergetool = vimdiff
+  pager = less -+$LESS -R
+  symlinks = false
+  editor = vim -n
+  whitespace = cr-at-eol
+[user]
+  name = Maxim Samoilov
+  email = samoilowmaxim@gmail.com
+[alias]
+  type = cat-file -t
+  dump = cat-file -p
+[filter "media"]
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
+[mergetool]
+  keepBackup = true
+[color]
+  ui = always
+
+[url "https://"]
+  insteadOf = git://
+[credential]
+  helper = osxkeychain
+[push]
+  default = matching
+[filter "lfs"]
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
