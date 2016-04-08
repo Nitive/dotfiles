@@ -9,3 +9,6 @@
 
     - include: playbooks/git.yml
       tags: git
+
+    - include: playbooks/osx.yml
+      tags: osx

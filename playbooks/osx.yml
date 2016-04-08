@@ -1,0 +1,2 @@
+- name: Reduce key repeat time
+  osx_defaults: key=KeyRepeat type=int value=3
