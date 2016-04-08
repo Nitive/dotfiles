@@ -38,6 +38,9 @@ NeoBundle 'tpope/vim-surround'
 "--------------------------------------------------
 " Syntax highlighting
 
+" Pug (Jade) syntax
+NeoBundle 'digitaltoad/vim-pug'
+
 " JavaScript syntax highlighting
 " NeoBundle 'mxw/vim-jsx'
 
