@@ -27,7 +27,7 @@
 [credential]
   helper = osxkeychain
 [push]
-  default = matching
+  default = tracking
 [filter "lfs"]
   clean = git-lfs clean %f
   smudge = git-lfs smudge %f
