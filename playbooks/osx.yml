@@ -3,3 +3,6 @@
 
 - name: Reduce initial key repeat time
   osx_defaults: key=InitialKeyRepeat type=int value=15
+
+- name: Enable repeat in Sublime Text 3
+  osx_defaults: domain=com.sublimetext.3 key=ApplePressAndHoldEnabled type=bool value=false
