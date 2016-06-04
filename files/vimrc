@@ -19,6 +19,23 @@ NeoBundle 'kristijanhusak/vim-hybrid-material'
 
 NeoBundle 'vim-airline/vim-airline'
 
+NeoBundle 'Shougo/unite.vim'
+
+" Sharable config between editors
+" editorconfig.org
+NeoBundle 'editorconfig/editorconfig-vim'
+
+" Fuzzy search
+" NeoBundle 'Shougo/vimproc.vim', {
+" \ 'build' : {
+" \     'windows' : 'tools\\update-dll-mingw',
+" \     'cygwin' : 'make -f make_cygwin.mak',
+" \     'mac' : 'make',
+" \     'linux' : 'make',
+" \     'unix' : 'gmake',
+" \    },
+" \ }
+
 " Add smart commands for comments like:
 " gcc - Toggle comment for the current line
 " gc  - Toggle comments for selected region or number of strings
