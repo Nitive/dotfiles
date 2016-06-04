@@ -15,6 +15,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Color themes
 NeoBundle 'vim-scripts/saturn.vim'
 NeoBundle 'easysid/mod8.vim'
+NeoBundle 'kristijanhusak/vim-hybrid-material'
 
 NeoBundle 'vim-airline/vim-airline'
 
@@ -109,7 +110,7 @@ syntax on
 set laststatus=2
 
 " Colorscheme for airline
-let g:airline_theme='papercolor'
+let g:airline_theme='hybrid'
 
 " Enable airline for tab-bar
 " let g:airline#extensions#tabline#enabled = 1
@@ -163,8 +164,10 @@ let g:syntastic_javascript_checkers = ['eslint']
 " set background=light
 " colorscheme saturn
 " colorscheme rakr-light
+
 set background=dark
-colorscheme mod8
+" colorscheme mod8
+colorscheme hybrid_material
 
 
 " Enable display whitespace characters
