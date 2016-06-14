@@ -1,5 +1,5 @@
 [core]
-  excludesfile = /Users/nitive/.gitexcludes
+  excludesfile = ~/.gitexcludes
   quotepath = false
   autocrlf = false
   safecrlf = true
