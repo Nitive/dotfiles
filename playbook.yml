@@ -12,3 +12,5 @@
 
     - include: playbooks/osx.yml
       tags: osx
+
+    - include: playbooks/software.yml
