@@ -56,6 +56,9 @@ NeoBundle 'tpope/vim-surround'
 "--------------------------------------------------
 " Syntax highlighting
 
+" TypeScript
+NeoBundle 'leafgarland/typescript-vim'
+
 " Pug (Jade) syntax
 NeoBundle 'digitaltoad/vim-pug'
 
