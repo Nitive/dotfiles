@@ -257,6 +257,10 @@ nmap R :source $MYVIMRC<CR>
 " Run current haskell file
 nnoremap <leader>r :w<CR>:!clear && runghc %:p<CR>
 
+" Run make test
+nnoremap <leader>t :w<CR>:!clear && make test<CR>
+
+
 " Map ctrl-movement keys to window switching
 map <C-k> <C-w><Up>
 map <C-j> <C-w><Down>
