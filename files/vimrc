@@ -254,6 +254,9 @@ set matchpairs+=<:>
 " Reload .vimrc
 nmap R :source $MYVIMRC<CR>
 
+" Run current haskell file
+nnoremap <leader>r :w<CR>:!clear && runghc %:p<CR>
+
 " Map ctrl-movement keys to window switching
 map <C-k> <C-w><Up>
 map <C-j> <C-w><Down>
