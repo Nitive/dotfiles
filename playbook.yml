@@ -1,7 +1,6 @@
 ---
 
 - hosts: all
-  gather_facts: no
 
   tasks:
     - include: playbooks/vim.yml
@@ -11,6 +10,7 @@
       tags: git
 
     - include: playbooks/osx.yml
+      when: ansible_os_family == 'Darwin'
       tags: osx
 
     - include: playbooks/software.yml

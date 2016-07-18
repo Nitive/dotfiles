@@ -1,12 +1,12 @@
 - name: Install VS Code
   homebrew_cask: name=visual-studio-code
-  # when: ansible_os_family == 'Darwin'
+  when: ansible_os_family == 'Darwin'
 
 - name: Install Virtual Box
   homebrew_cask: name=virtualbox
-  # when: ansible_os_family == 'Darwin'
+  when: ansible_os_family == 'Darwin'
 
 - name: Install vagrant
   homebrew_cask: name=vagrant
-  # when: ansible_os_family == 'Darwin'
+  when: ansible_os_family == 'Darwin'
 
