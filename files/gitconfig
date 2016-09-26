@@ -33,4 +33,6 @@
   smudge = git-lfs smudge %f
   required = true
 [merge]
-	tool = vimdiff
+  tool = vimdiff
+[diff]
+  compactionHeuristic = true
