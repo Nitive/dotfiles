@@ -51,6 +51,8 @@ NeoBundle 'vim-airline/vim-airline-themes'
 " and ds{what} - remove them
 NeoBundle 'tpope/vim-surround'
 
+" The interactive scratchpad
+NeoBundle 'metakirby5/codi.vim'
 
 
 "--------------------------------------------------
