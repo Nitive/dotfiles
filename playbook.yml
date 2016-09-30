@@ -14,3 +14,7 @@
       tags: osx
 
     - include: playbooks/software.yml
+      tags: software
+
+    - include: playbooks/shell.yml
+      tags: shell, dotfiles

@@ -1,0 +1,37 @@
+# global
+alias -g g='| grep'
+alias -g l='| less -r'
+
+# docker
+alias dk='docker'
+alias dm='docker-machine'
+alias dc='docker-compose'
+
+# short
+alias to='cd'
+alias ff='rm -rf'
+alias py='python3 '
+
+# git
+alias gdc='git diff --cached'
+alias gp+='git push origin +$(current_branch)'
+alias gpu+='git push -u origin $(current_branch)'
+
+# utils
+alias size='du -sh'
+alias reload='source ~/.zshrc'
+alias proj='sublime *.sublime-project'
+alias pl="cd ~/Desktop/playground"
+
+function md {
+  mkdir $1 && cd $1
+}
+
+function avi2mp4 () {
+  ffmpeg -i $1 -c:v libx264 -crf 19 -preset slow -c:a libfaac -b:a 192k -ac 2 $2
+}
+
+function ni {
+  npm install "$@" && osascript -e 'display notification "Get back to work!" with title "NPM install finished"'
+}
+
