@@ -1,5 +1,9 @@
 - name: vim config
-  file: src={{ playbook_dir }}/files/vimrc dest=~/.vimrc state=link force=true
+  file:
+    src: "{{ playbook_dir }}/files/vimrc"
+    dest: ~/.vimrc
+    state: link
+    force: true
 
 - name: vim plugin manager
   git:
