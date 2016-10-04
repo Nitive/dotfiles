@@ -13,3 +13,6 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 nmap <leader><leader> :NERDTreeToggle<CR>
 
 call plug#end()
+
+" Reload config
+nmap R :source $MYVIMRC<CR>
