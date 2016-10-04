@@ -16,3 +16,6 @@ call plug#end()
 
 " Reload config
 nmap R :source $MYVIMRC<CR>
+
+set expandtab
+set shiftwidth=2
