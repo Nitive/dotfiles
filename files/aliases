@@ -11,6 +11,7 @@ alias dc='docker-compose'
 alias to='cd'
 alias ff='rm -rf'
 alias py='python3 '
+alias nrc='nvim ~/.config/nvim/init.vim'
 
 # git
 alias gdc='git diff --cached'
