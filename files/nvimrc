@@ -33,6 +33,7 @@ call plug#end()
 " Reload config
 nmap R :source $MYVIMRC<CR>
 
+set relativenumber
 set expandtab
 set shiftwidth=2
 colorscheme onedark
