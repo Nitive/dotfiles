@@ -22,6 +22,12 @@ Plug 'billyvg/tigris.nvim', { 'do': './install.sh' }
 " Very usefull
 Plug 'tomtom/tcomment_vim'
 
+" colors
+
+Plug 'joshdick/onedark.vim'
+set background=dark
+let g:onedark_terminal_italics = 1
+
 call plug#end()
 
 " Reload config
@@ -29,3 +35,4 @@ nmap R :source $MYVIMRC<CR>
 
 set expandtab
 set shiftwidth=2
+colorscheme onedark
