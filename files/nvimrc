@@ -1,7 +1,6 @@
 let mapleader = ','
 
 call plug#begin('~/.vim/plugged')
-
 " linter
 Plug 'neomake/neomake'
 let g:neomake_javascript_eslint_exe = $PWD .'/node_modules/.bin/eslint'
@@ -11,6 +10,11 @@ autocmd! BufWritePost * Neomake
 " file manager
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 nmap <leader><leader> :NERDTreeToggle<CR>
+
+" Syntax highligthing
+" javascript
+Plug 'neovim/node-host', { 'do': 'npm install' }
+Plug 'billyvg/tigris.nvim', { 'do': './install.sh' }
 
 call plug#end()
 
