@@ -16,6 +16,12 @@ nmap <leader><leader> :NERDTreeToggle<CR>
 Plug 'neovim/node-host', { 'do': 'npm install' }
 Plug 'billyvg/tigris.nvim', { 'do': './install.sh' }
 
+" Add smart commands for comments like:
+" gcc - Toggle comment for the current line
+" gc  - Toggle comments for selected region or number of strings
+" Very usefull
+Plug 'tomtom/tcomment_vim'
+
 call plug#end()
 
 " Reload config
