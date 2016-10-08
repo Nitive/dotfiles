@@ -1,20 +1,21 @@
 let mapleader = ','
 
 call plug#begin('~/.vim/plugged')
-" linter
+" -- Linters
 Plug 'neomake/neomake'
 let g:neomake_javascript_eslint_exe = $PWD .'/node_modules/.bin/eslint'
 let g:neomake_javascript_enabled_makers = ['eslint', 'flow']
 autocmd! BufWritePost * Neomake
 
-" file manager
+" File manager
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 nmap <leader><leader> :NERDTreeToggle<CR>
 
-" Syntax highligthing
+" -- Syntax highligthing
 " javascript
 Plug 'neovim/node-host', { 'do': 'npm install' }
 Plug 'billyvg/tigris.nvim', { 'do': './install.sh' }
+let g:tigris#enabled = 1
 
 " Add smart commands for comments like:
 " gcc - Toggle comment for the current line
@@ -22,7 +23,7 @@ Plug 'billyvg/tigris.nvim', { 'do': './install.sh' }
 " Very usefull
 Plug 'tomtom/tcomment_vim'
 
-" colors
+" -- colors
 
 Plug 'joshdick/onedark.vim'
 set background=dark
@@ -32,6 +33,10 @@ call plug#end()
 
 " Reload config
 nmap R :source $MYVIMRC<CR>
+
+" Map arrows
+imap <C-f> <Right>
+imap <C-b> <Left>
 
 set relativenumber
 set expandtab

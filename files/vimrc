@@ -307,7 +307,7 @@ map <C-h> <C-w><Left>
 
 " Map arrows
 imap <C-f> <Right>
-imap <C-h> <Left>
+imap <C-b> <Left>
 
 " ================ Persistent Undo ==================
 " Keep undo history across sessions, by storing in file.
