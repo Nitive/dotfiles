@@ -11,6 +11,9 @@ autocmd! BufWritePost * Neomake
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 nmap <leader><leader> :NERDTreeToggle<CR>
 
+" Search in project
+Plug 'mileszs/ack.vim'
+
 " -- Syntax highligthing
 " javascript
 Plug 'neovim/node-host', { 'do': 'npm install' }
