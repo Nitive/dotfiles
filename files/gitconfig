@@ -6,7 +6,7 @@
   mergetool = vimdiff
   pager = less -+$LESS -R
   symlinks = false
-  editor = vim -n
+  editor = nvim -n
   whitespace = cr-at-eol
 [user]
   name = Maxim Samoilov
