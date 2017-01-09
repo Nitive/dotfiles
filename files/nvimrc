@@ -14,6 +14,9 @@ nmap <leader><leader> :NERDTreeToggle<CR>
 " Search in project
 Plug 'mileszs/ack.vim'
 
+" Get statistic of coding time
+Plug 'wakatime/vim-wakatime'
+
 " -- Syntax highligthing
 " javascript
 Plug 'neovim/node-host', { 'do': 'npm install' }
