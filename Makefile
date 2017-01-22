@@ -1,4 +1,10 @@
-install:
-	ansible-playbook -i local playbook.yml
+export ANSIBLE_LIBRARY=./modules
+export ANSIBLE_INVENTORY=local
 
-.PHONY: install
+install:
+	ansible-playbook playbook.yml
+
+test:
+	ansible-playbook --tags=test -vvv playbook.yml
+
+.PHONY: install test
