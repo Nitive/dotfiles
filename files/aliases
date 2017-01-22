@@ -36,4 +36,3 @@ function avi2mp4 () {
 function ni {
   npm install "$@" && osascript -e 'display notification "Get back to work!" with title "NPM install finished"'
 }
-

@@ -1,0 +1,3 @@
+- name: Install vagrant
+  homebrew_cask: name=vagrant
+  when: ansible_os_family == 'Darwin'
