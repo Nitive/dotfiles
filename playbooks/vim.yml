@@ -1,17 +1,3 @@
-- name: vim config
-  file:
-    src: "{{ playbook_dir }}/files/vimrc"
-    dest: ~/.vimrc
-    state: link
-    force: true
-
-- name: vim plugin manager
-  git:
-    repo: "https://github.com/Shougo/neobundle.vim.git"
-    dest: ~/.vim/bundle/neobundle.vim
-    version: master
-    update: no
-
 # neovim
 
 - name: neovim config
