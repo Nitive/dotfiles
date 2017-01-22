@@ -1,8 +1,8 @@
-- name: git
+- name: Install git
   homebrew: name=git state=present
   when: ansible_os_family == 'Darwin'
 
-- name: gitconfig
+- name: Link gitconfig
   file:
     src: "{{ playbook_dir }}/files/gitconfig"
     dest: ~/.gitconfig
@@ -10,7 +10,7 @@
     force: true
   tags: dotfiles
 
-- name: gitexcludes
+- name: Link gitexcludes
   file:
     src: "{{ playbook_dir }}/files/gitexcludes"
     dest: ~/.gitexcludes

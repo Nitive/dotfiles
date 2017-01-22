@@ -1,11 +1,11 @@
-- name: aliases
+- name: Link aliases
   file:
     src: "{{ playbook_dir }}/files/aliases"
     dest: ~/.aliases
     state: link
     force: true
 
-- name: add aliases to .zshrc
+- name: Add aliases to .zshrc
   blockinfile:
     dest: ~/.zshrc
     block: |
