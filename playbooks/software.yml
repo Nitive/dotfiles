@@ -1,3 +1,0 @@
-- include: "{{ item }}"
-  with_fileglob:
-    - ./software/*.yml

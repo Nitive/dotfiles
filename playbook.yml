@@ -3,18 +3,7 @@
 - hosts: all
 
   tasks:
-    - include: playbooks/vim.yml
-      tags: vim, dotfiles
-
-    - include: playbooks/git.yml
-      tags: git
-
-    - include: playbooks/osx-settings.yml
-      when: ansible_os_family == 'Darwin'
-      tags: osx
-
-    - include: playbooks/software.yml
-      tags: software
-
-    - include: playbooks/shell.yml
-      tags: shell, dotfiles
+    - include: "{{ item }}"
+      with_fileglob:
+        - "./playbooks/*.yml"
+        - "./playbooks/software/*.yml"
