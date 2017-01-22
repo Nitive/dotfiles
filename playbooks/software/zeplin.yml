@@ -1,3 +1,2 @@
 - name: Install Zeplin
   homebrew_cask: name=zeplin
-  when: ansible_os_family == 'Darwin'

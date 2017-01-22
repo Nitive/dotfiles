@@ -1,6 +1,5 @@
 - name: Install VS Code
   homebrew_cask: name=visual-studio-code
-  when: ansible_os_family == 'Darwin'
 
 - name: Link vscode settings
   file:

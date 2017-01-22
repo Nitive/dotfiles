@@ -1,3 +1,2 @@
 - name: Install f.lux
   homebrew_cask: name=flux
-  when: ansible_os_family == 'Darwin'

@@ -1,6 +1,5 @@
 - name: Install git
   homebrew: name=git state=present
-  when: ansible_os_family == 'Darwin'
 
 - name: Link gitconfig
   file:
