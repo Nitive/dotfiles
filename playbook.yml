@@ -9,7 +9,7 @@
     - include: playbooks/git.yml
       tags: git
 
-    - include: playbooks/osx.yml
+    - include: playbooks/osx-settings.yml
       when: ansible_os_family == 'Darwin'
       tags: osx
 
