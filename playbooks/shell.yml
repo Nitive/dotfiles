@@ -1,3 +1,9 @@
+- name: Install zsh
+  homebrew: name=zsh
+
+- name: Install zsh-syntax-highlighting
+  homebrew: name=zsh-syntax-highlighting
+
 - name: Link aliases
   file:
     src: "{{ playbook_dir }}/files/aliases"
