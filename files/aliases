@@ -1,11 +1,6 @@
 # global
 alias -g g='| grep'
 
-# docker
-alias dk='docker'
-alias dm='docker-machine'
-alias dc='docker-compose'
-
 # short
 alias to='cd'
 alias ff='rm -rf'
