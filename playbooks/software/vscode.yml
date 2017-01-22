@@ -15,3 +15,26 @@
     dest: "~/Library/Application\ Support/Code/User/keybindings.json"
     state: link
     force: true
+
+- name: Install VSCode extensions
+  vscode:
+    extensions:
+      - Orta.vscode-jest
+      - PeterJausovec.vscode-docker
+      - WakaTime.vscode-wakatime
+      - abierbaum.vscode-file-peek
+      - akamud.vscode-theme-onedark
+      - dbaeumer.vscode-eslint
+      - eg2.tslint
+      - henriiik.vscode-sort
+      - ionutvmi.path-autocomplete
+      - joshjg.vscode-credo
+      - lonefy.vscode-JS-CSS-HTML-formatter
+      - mjmcloug.vscode-elixir
+      - mrmlnc.vscode-duplicate
+      - mrmlnc.vscode-stylefmt
+      - msjsdiag.debugger-for-chrome
+      - rtorr.vscode-flow
+      - shinnn.stylelint
+      - vscodevim.vim
+      - waderyan.gitblame
