@@ -1,0 +1,2 @@
+- name: Install Docker
+  homebrew_cask: name=docker
