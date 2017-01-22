@@ -1,3 +1,17 @@
 - name: Install VS Code
   homebrew_cask: name=visual-studio-code
   when: ansible_os_family == 'Darwin'
+
+- name: Link vscode settings
+  file:
+    src: "{{ playbook_dir }}/files/vscode/settings.json"
+    dest: "~/Library/Application\ Support/Code/User/settings.json"
+    state: link
+    force: true
+
+- name: Link vscode keybindings
+  file:
+    src: "{{ playbook_dir }}/files/vscode/keybindings.json"
+    dest: "~/Library/Application\ Support/Code/User/keybindings.json"
+    state: link
+    force: true

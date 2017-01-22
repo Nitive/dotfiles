@@ -1,0 +1,22 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "css.validate": false,
+
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+
+  "files.insertFinalNewline": true,
+
+  "languageServerCredo.flags": "--strict",
+
+  "stylelint.enable": true,
+
+  "terminal.external.osxExec": "/Applications/iTerm.app",
+
+  "tslint.autoFixOnSave": true,
+
+  "window.zoomLevel": 0
+}
