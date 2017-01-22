@@ -7,3 +7,4 @@
       with_fileglob:
         - "./playbooks/*.yml"
         - "./playbooks/software/*.yml"
+        - "./playbooks/langs/*.yml"
