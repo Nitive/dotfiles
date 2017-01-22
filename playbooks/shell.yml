@@ -9,6 +9,13 @@
     repo: git@github.com:robbyrussell/oh-my-zsh.git
     dest: ~/.oh-my-zsh
 
+- name: Link .zshrc
+  file:
+    src: "{{ playbook_dir }}/files/zshrc"
+    dest: ~/.zshrc
+    state: link
+    force: true
+
 - name: Link aliases
   file:
     src: "{{ playbook_dir }}/files/aliases"
@@ -16,8 +23,9 @@
     state: link
     force: true
 
-- name: Add aliases to .zshrc
-  blockinfile:
-    dest: ~/.zshrc
-    block: |
-      source ~/.aliases
+- name: Link aliases
+  file:
+    src: "{{ playbook_dir }}/files/aliases"
+    dest: ~/.config/aliases
+    state: link
+    force: true
