@@ -15,13 +15,16 @@ alias nrc='nvim ~/.config/nvim/init.vim'
 
 # git
 alias gdc='git diff --cached'
-alias gp+='git push origin +$(current_branch)'
+# force push current branch
+alias gfp='git push origin +$(current_branch)'
+# push and set upstream
 alias gpu+='git push -u origin $(current_branch)'
+# remove not merged branches
+alias gbda='git branch --no-color --merged | command grep -vE "^(\*|\s*master\s*$)" | command xargs -n 1 git branch -d'
 
 # utils
 alias size='du -sh'
 alias reload='source ~/.zshrc'
-alias proj='sublime *.sublime-project'
 alias pl="cd ~/Desktop/playground"
 alias cm="cd ~/Work/cian-manager"
 
