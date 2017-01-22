@@ -1,3 +1,3 @@
-- include: software/vagrant.yml
-- include: software/virtualbox.yml
-- include: software/vscode.yml
+- include: "{{ item }}"
+  with_fileglob:
+    - ./software/*.yml
