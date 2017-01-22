@@ -1,3 +1,7 @@
+- name: Install Node.js
+  homebrew: name=node
+  when: ansible_os_family == 'Darwin'
+
 - name: Install yarn
   homebrew: name=yarn
   when: ansible_os_family == 'Darwin'
