@@ -1,6 +1,9 @@
 - name: Install git
   homebrew: name=git state=present
 
+- name: Install hub
+  homebrew: name=hub
+
 - name: Link gitconfig
   file:
     src: "{{ playbook_dir }}/files/gitconfig"
