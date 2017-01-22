@@ -1,5 +1,5 @@
 - name: Install git
-  homebrew: name=git state=present
+  homebrew: name=git
 
 - name: Install hub
   homebrew: name=hub
