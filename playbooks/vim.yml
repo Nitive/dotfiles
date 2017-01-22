@@ -1,3 +1,6 @@
+- name: Install Neovim
+  homebrew: name=neovim
+
 - name: Link neovim config
   file:
     src: "{{ playbook_dir }}/files/nvimrc"
