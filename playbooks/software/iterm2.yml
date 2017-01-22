@@ -1,0 +1,3 @@
+- name: Install iTerm 2
+  homebrew_cask: name=iterm2
+  when: ansible_os_family == 'Darwin'

@@ -1,0 +1,3 @@
+- name: Install VLC
+  homebrew_cask: name=vlc
+  when: ansible_os_family == 'Darwin'
