@@ -11,4 +11,4 @@ install-ansible:
 test:
 	ansible-playbook --tags=test -vvv playbook.yml
 
-.PHONY: install test
+.PHONY: install install-ansible test
