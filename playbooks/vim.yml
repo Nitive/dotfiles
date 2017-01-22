@@ -1,5 +1,3 @@
-# neovim
-
 - name: neovim config
   file:
     src: "{{ playbook_dir }}/files/nvimrc"
