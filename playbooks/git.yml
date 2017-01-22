@@ -4,6 +4,12 @@
 - name: Install hub
   homebrew: name=hub
 
+- name: Install Git Extras
+  homebrew: name=git-extras
+
+- name: Install Git Lfs
+  homebrew: name=git-lfs
+
 - name: Link gitconfig
   file:
     src: "{{ playbook_dir }}/files/gitconfig"
