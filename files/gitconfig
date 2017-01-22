@@ -21,7 +21,6 @@
   keepBackup = true
 [color]
   ui = always
-
 [url "https://"]
   insteadOf = git://
 [credential]
