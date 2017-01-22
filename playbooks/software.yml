@@ -9,6 +9,3 @@
 - name: Install vagrant
   homebrew_cask: name=vagrant
   when: ansible_os_family == 'Darwin'
-
-- name: Install ansible-lint
-  pip: name=ansible-lint
