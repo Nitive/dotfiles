@@ -1,6 +1,5 @@
 # global
 alias -g g='| grep'
-alias -g l='| less -r'
 
 # docker
 alias dk='docker'
