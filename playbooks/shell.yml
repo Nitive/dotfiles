@@ -4,6 +4,11 @@
 - name: Install zsh-syntax-highlighting
   homebrew: name=zsh-syntax-highlighting
 
+- name: Install oh-my-zsh
+  git:
+    repo: git@github.com:robbyrussell/oh-my-zsh.git
+    dest: ~/.oh-my-zsh
+
 - name: Link aliases
   file:
     src: "{{ playbook_dir }}/files/aliases"
