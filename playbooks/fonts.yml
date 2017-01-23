@@ -1,0 +1,12 @@
+- name: Install Fira Code font
+  get_url:
+    url: https://github.com/tonsky/FiraCode/blob/master/distr/otf/FiraCode-{{ weight }}.otf?raw=true
+    dest: /Library/Fonts/FiraCode-{{ weight }}.otf
+  with_items:
+    - Bold
+    - Light
+    - Medium
+    - Regular
+    - Retina
+  loop_control:
+    loop_var: weight
