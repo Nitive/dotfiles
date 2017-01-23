@@ -18,6 +18,7 @@
 - name: Install VSCode extensions
   vscode:
     extensions:
+      - EditorConfig.EditorConfig
       - Orta.vscode-jest
       - PeterJausovec.vscode-docker
       - WakaTime.vscode-wakatime
