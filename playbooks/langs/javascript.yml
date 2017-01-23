@@ -3,3 +3,8 @@
 
 - name: Install yarn
   homebrew: name=yarn
+
+- name: Install n
+  npm:
+    name: n
+    global: true
