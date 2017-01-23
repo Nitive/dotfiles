@@ -19,13 +19,6 @@
 - name: Link aliases
   file:
     src: "{{ playbook_dir }}/files/aliases"
-    dest: ~/.aliases
-    state: link
-    force: true
-
-- name: Link aliases
-  file:
-    src: "{{ playbook_dir }}/files/aliases"
     dest: ~/.config/aliases
     state: link
     force: true
