@@ -15,6 +15,8 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 RPS1="$(node -v)"
 
+set -o vi
+
 # for substring search
 bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
