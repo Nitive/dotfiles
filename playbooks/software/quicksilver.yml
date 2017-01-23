@@ -1,0 +1,2 @@
+- name: Install Quicksilver
+  homebrew_cask: name=quicksilver
