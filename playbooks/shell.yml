@@ -27,3 +27,9 @@
     dest: ~/.config/aliases
     state: link
     force: true
+
+- name: Set default shell to zsh
+  become: true
+  user:
+    name: "{{ ansible_user_id }}"
+    shell: zsh
