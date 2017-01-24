@@ -1,2 +1,14 @@
 - name: Install iTerm 2
   homebrew_cask: name=iterm2
+
+- name: Create directory for iTerm preferences
+  file:
+    path: "~/Library/Application\ Support/iTerm2/DynamicProfiles/"
+    state: directory
+
+- name: Link iTerm Dracula profile
+  file:
+    src: "{{ playbook_dir }}/files/iterm/Dracula.profile"
+    path: "~/Library/Application\ Support/iTerm2/DynamicProfiles/Dracula.profile"
+    state: link
+    force: true
