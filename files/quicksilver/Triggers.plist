@@ -103,48 +103,6 @@
 		</dict>
 		<dict>
 			<key>ID</key>
-			<string>E81E42E3-03BE-4A70-9EDC-C32F78A71969</string>
-			<key>command</key>
-			<dict>
-				<key>actionID</key>
-				<string>FileOpenAction</string>
-				<key>directID</key>
-				<string>/Applications/Sketch.app</string>
-			</dict>
-			<key>enabled</key>
-			<true/>
-			<key>keyCode</key>
-			<integer>41</integer>
-			<key>modifiers</key>
-			<integer>524576</integer>
-			<key>onPress</key>
-			<true/>
-			<key>type</key>
-			<string>QSHotKeyTrigger</string>
-		</dict>
-		<dict>
-			<key>ID</key>
-			<string>90AFB309-854A-4AC1-9876-F3F6EF755113</string>
-			<key>command</key>
-			<dict>
-				<key>actionID</key>
-				<string>FileOpenAction</string>
-				<key>directID</key>
-				<string>/Applications/OmniFocus.app</string>
-			</dict>
-			<key>enabled</key>
-			<true/>
-			<key>keyCode</key>
-			<integer>16</integer>
-			<key>modifiers</key>
-			<integer>524576</integer>
-			<key>onPress</key>
-			<true/>
-			<key>type</key>
-			<string>QSHotKeyTrigger</string>
-		</dict>
-		<dict>
-			<key>ID</key>
 			<string>853DD642-A7D6-410B-AB43-2F35966470E4</string>
 			<key>command</key>
 			<dict>
@@ -157,27 +115,6 @@
 			<true/>
 			<key>keyCode</key>
 			<integer>38</integer>
-			<key>modifiers</key>
-			<integer>524576</integer>
-			<key>onPress</key>
-			<true/>
-			<key>type</key>
-			<string>QSHotKeyTrigger</string>
-		</dict>
-		<dict>
-			<key>ID</key>
-			<string>606AE5F7-51AC-41ED-9574-84EACC4ED27F</string>
-			<key>command</key>
-			<dict>
-				<key>actionID</key>
-				<string>FileOpenAction</string>
-				<key>directID</key>
-				<string>/Applications/Sublime Text.app</string>
-			</dict>
-			<key>enabled</key>
-			<true/>
-			<key>keyCode</key>
-			<integer>37</integer>
 			<key>modifiers</key>
 			<integer>524576</integer>
 			<key>onPress</key>
