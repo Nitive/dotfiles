@@ -1,2 +1,14 @@
 - name: Install Quicksilver
   homebrew_cask: name=quicksilver
+
+- name: Create directory for Quicksilver preferences
+  file:
+    path: "~/Library/Application\ Support/Quicksilver/"
+    state: directory
+
+- name: Link vscode keybindings
+  file:
+    src: "{{ playbook_dir }}/files/quicksilver/Triggers.plist"
+    path: "~/Library/Application\ Support/Quicksilver/Triggers.plist"
+    state: link
+    force: true
