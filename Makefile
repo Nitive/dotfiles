@@ -2,7 +2,7 @@ export ANSIBLE_LIBRARY=./modules
 export ANSIBLE_INVENTORY=local
 
 install:
-	ansible-playbook playbook.yml
+	ansible-playbook -K playbook.yml
 
 install-ansible:
 	/usr/bin/ruby -e "$$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
