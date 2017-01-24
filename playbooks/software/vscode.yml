@@ -1,6 +1,11 @@
 - name: Install VS Code
   homebrew_cask: name=visual-studio-code
 
+- name: Create folder for vscode settings
+  file:
+    path: "~/Library/Application\ Support/Code/User/"
+    state: directory
+
 - name: Link vscode settings
   file:
     src: "{{ playbook_dir }}/files/vscode/settings.json"
