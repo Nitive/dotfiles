@@ -16,6 +16,11 @@
     state: link
     force: true
 
+- name: Create ~/.config/ folder
+  file:
+    path: ~/.config/
+    state: directory
+
 - name: Link aliases
   file:
     src: "{{ playbook_dir }}/files/aliases"
