@@ -1,0 +1,2 @@
+- name: Install Postman
+  homebrew_cask: name=postman
