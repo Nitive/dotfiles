@@ -2,8 +2,9 @@
 # Dotfiles
 > Automated setup software, dotfiles, etc
 
-![ButovoDynamics](./all-machines-must-suffer.jpg)
 > All machines must suffer
+
+![ButovoDynamics](./all-machines-must-suffer.jpg)
 
 ## Requirements
 - `git` to clone this repository
