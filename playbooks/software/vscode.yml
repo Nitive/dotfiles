@@ -20,6 +20,13 @@
     state: link
     force: true
 
+- name: Link vscode snippets
+  file:
+    src: "{{ playbook_dir }}/files/vscode/snippets/"
+    path: "~/Library/Application\ Support/Code/User/snippets"
+    state: link
+    force: true
+
 - name: Install VSCode extensions
   vscode:
     extensions:
