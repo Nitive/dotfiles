@@ -15,10 +15,3 @@
     key: InitialKeyRepeat
     type: float
     value: 15.0
-
-- name: Enable repeat in Sublime Text 3
-  osx_defaults:
-    domain: com.sublimetext.3
-    key: ApplePressAndHoldEnabled
-    type: bool
-    value: false
