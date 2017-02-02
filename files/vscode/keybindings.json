@@ -1,5 +1,7 @@
 // Place your key bindings in this file to overwrite the defaults
 [
+  { "key": "ctrl+n", "command": "workbench.action.quickOpenNavigateNext", "when": "inQuickOpen" },
+  { "key": "ctrl+p", "command": "workbench.action.quickOpenNavigatePrevious", "when": "inQuickOpen" },
   { "key": "ctrl+f", "command": "cursorRight", "when": "editorTextFocus && vim.mode == 'Insert'" },
   { "key": "ctrl+tab", "command": "workbench.action.nextEditor" },
   { "key": "ctrl+shift+tab", "command": "workbench.action.previousEditor" },
