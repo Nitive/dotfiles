@@ -1,2 +1,5 @@
 - name: Install Haskell
   homebrew: name=ghc
+
+- name: Install Stack
+  homebrew: name=haskell-stack
