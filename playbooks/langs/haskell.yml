@@ -3,3 +3,9 @@
 
 - name: Install Stack
   homebrew: name=haskell-stack
+
+- name: Install Haskell extensions
+  vscode:
+    extensions:
+      - justusadam.language-haskell
+      - hoovercj.vscode-ghc-mod
