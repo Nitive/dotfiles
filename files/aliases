@@ -9,8 +9,6 @@ alias nrc='nvim ~/.config/nvim/init.vim'
 
 # force push current branch
 alias gfp='git push origin +$(current_branch)'
-# remove not merged branches
-alias gbda='git branch --no-color --merged | command grep -vE "^(\*|\s*master\s*$)" | command xargs -n 1 git branch -d'
 
 # utils
 alias size='du -sh'
