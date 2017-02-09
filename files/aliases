@@ -7,8 +7,6 @@ alias ff='rm -rf'
 alias py='python3 '
 alias nrc='nvim ~/.config/nvim/init.vim'
 
-# git
-alias gdc='git diff --cached'
 # force push current branch
 alias gfp='git push origin +$(current_branch)'
 # remove not merged branches
