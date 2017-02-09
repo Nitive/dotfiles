@@ -16,6 +16,8 @@
 
   "terminal.external.osxExec": "/Applications/iTerm.app",
 
+  "haskell.ghcMod.executablePath": "/Users/nitive/.stack/snapshots/x86_64-osx/lts-7.18/8.0.1/bin/ghc-mod",
+
   "tslint.autoFixOnSave": true,
 
   "window.zoomLevel": 0
