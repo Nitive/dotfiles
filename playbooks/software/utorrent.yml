@@ -1,2 +1,0 @@
-- name: Install uTorrent
-  homebrew_cask: name=utorrent
