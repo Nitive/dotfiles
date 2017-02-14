@@ -50,6 +50,9 @@ nmap R :source $MYVIMRC<CR>
 imap <C-f> <Right>
 imap <C-b> <Left>
 
+" save file with root privileges
+command! -nargs=0 -bang WSudo :silent! w !sudo tee % &>/dev/null
+
 set relativenumber
 set expandtab
 set shiftwidth=2
