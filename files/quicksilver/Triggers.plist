@@ -145,6 +145,27 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>C3419EC6-675B-4AFA-B213-0ACDCBBE83B0</string>
+			<key>command</key>
+			<dict>
+				<key>actionID</key>
+				<string>FileOpenAction</string>
+				<key>directID</key>
+				<string>/Applications/iTunes.app</string>
+			</dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyCode</key>
+			<integer>0</integer>
+			<key>modifiers</key>
+			<integer>524576</integer>
+			<key>onPress</key>
+			<true/>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>835F2496-85A1-465F-9A8B-53883FF2C12A</string>
 			<key>command</key>
 			<dict>
