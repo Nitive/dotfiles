@@ -75,6 +75,8 @@
 			<string>QSActivateTextModeTrigger</string>
 			<key>command</key>
 			<string>QSActivateTextModeCommand</string>
+			<key>enabled</key>
+			<false/>
 			<key>set</key>
 			<string>Quicksilver</string>
 			<key>type</key>
