@@ -2,7 +2,6 @@
 alias -g g='| grep'
 
 # short
-alias to='cd'
 alias ff='rm -rf'
 alias py='python3 '
 alias nrc='nvim ~/.config/nvim/init.vim'
