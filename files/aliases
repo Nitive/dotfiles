@@ -19,10 +19,6 @@ function cm {
   cd ~/Work/cian-manager/$1
 }
 
-function md {
-  mkdir $1 && cd $1
-}
-
 function avi2mp4 () {
   ffmpeg -i $1 -c:v libx264 -crf 19 -preset slow -c:a libfaac -b:a 192k -ac 2 $2
 }
