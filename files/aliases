@@ -13,7 +13,7 @@ alias gfp='git push origin +$(current_branch)'
 alias size='du -sh'
 alias reload='source ~/.zshrc'
 alias pl="cd ~/Desktop/playground"
-alias nts="nvim ~/Desktop/notes/"
+alias nts="nvim ~/Desktop/notes.md"
 
 function cm {
   cd ~/Work/cian-manager/$1
