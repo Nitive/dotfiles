@@ -1,0 +1,2 @@
+- name: Install Opera
+  homebrew_cask: name=opera
