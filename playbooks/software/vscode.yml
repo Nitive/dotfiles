@@ -20,12 +20,22 @@
     state: link
     force: true
 
+- name: Create folder for vscode snippets
+  file:
+    path: "~/Library/Application\ Support/Code/User/snippets"
+    state: directory
+
 - name: Link vscode snippets
   file:
-    src: "{{ playbook_dir }}/files/vscode/snippets/"
-    path: "~/Library/Application\ Support/Code/User/snippets"
+    src: "{{ playbook_dir }}/files/vscode/snippets.json"
+    path: "~/Library/Application\ Support/Code/User/snippets/{{ item }}"
     state: link
     force: true
+  with_items:
+    - javascript.json
+    - javascriptreact.json
+    - typescript.json
+    - typescriptreact.json
 
 - name: Install VSCode extensions
   vscode:

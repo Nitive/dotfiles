@@ -1,9 +1,9 @@
 {
   "Log with hint": {
     "prefix": "cl",
+    "description": "Log output with hint",
     "body": [
       "console.log('$1', $1)"
-    ],
-    "description": "Log output with hint"
+    ]
   }
 }
