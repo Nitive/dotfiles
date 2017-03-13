@@ -5,5 +5,12 @@
     "body": [
       "console.log('$1', $1)"
     ]
+  },
+  "import": {
+    "prefix": "import",
+    "description": "import statement",
+    "body": [
+      "import { $2 } from '$1'"
+    ]
   }
 }
