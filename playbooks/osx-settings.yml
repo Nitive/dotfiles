@@ -15,3 +15,9 @@
     key: InitialKeyRepeat
     type: float
     value: 15.0
+
+- name: Enable text substitution in web apps (for example, Slack)
+  osx_defaults:
+    key: WebAutomaticTextReplacementEnabled
+    type: bool
+    value: true
