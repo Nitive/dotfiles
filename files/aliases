@@ -6,8 +6,8 @@ alias ff='rm -rf'
 alias py='python3 '
 alias nrc='nvim ~/.config/nvim/init.vim'
 
-# force push current branch
-alias gfp='git push origin +$(current_branch)'
+# force push only if all fetched
+alias gfp='git push --force-with-lease'
 
 # utils
 alias size='du -sh'
