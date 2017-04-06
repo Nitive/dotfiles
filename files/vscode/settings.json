@@ -13,6 +13,7 @@
   "stylelint.enable": true,
   "terminal.external.osxExec": "/Applications/iTerm.app",
   "tslint.autoFixOnSave": true,
+  "window.openFilesInNewWindow": "off",
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Atom One Dark"
 }
