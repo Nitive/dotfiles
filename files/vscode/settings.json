@@ -10,6 +10,7 @@
   "files.insertFinalNewline": true,
   "haskell.ghcMod.executablePath": "/Users/nitive/.stack/snapshots/x86_64-osx/lts-7.18/8.0.1/bin/ghc-mod",
   "languageServerCredo.flags": "--strict",
+  "keyboard.dispatch": "keyCode",
   "stylelint.enable": true,
   "terminal.external.osxExec": "/Applications/iTerm.app",
   "tslint.autoFixOnSave": true,
