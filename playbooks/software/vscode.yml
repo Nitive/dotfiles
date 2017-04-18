@@ -50,8 +50,10 @@
       - dbaeumer.vscode-eslint
       - eg2.tslint
       - henriiik.vscode-sort
+      - hoovercj.vscode-ghc-mod
       - ionutvmi.path-autocomplete
       - joshjg.vscode-credo
+      - justusadam.language-haskell
       - mjmcloug.vscode-elixir
       - mrmlnc.vscode-duplicate
       - mrmlnc.vscode-stylefmt
