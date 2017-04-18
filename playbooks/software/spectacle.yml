@@ -1,2 +1,10 @@
 - name: Install Spectacle
   homebrew_cask: name=spectacle
+
+- name: Link Spectacle keybindings
+  file:
+    src: "{{ playbook_dir }}/files/spectacle/Shortcuts.json"
+    path: "~/Library/Application\ Support/Spectacle/Shortcuts.json"
+    state: link
+    force: true
+  tags: test
