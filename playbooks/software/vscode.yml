@@ -43,6 +43,7 @@
       - EditorConfig.EditorConfig
       - Orta.vscode-jest
       - PeterJausovec.vscode-docker
+      - QassimFarid.ejs-language-support
       - WakaTime.vscode-wakatime
       - abierbaum.vscode-file-peek
       - akamud.vscode-theme-onedark
