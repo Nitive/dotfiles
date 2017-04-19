@@ -66,3 +66,9 @@ if has('persistent_undo')
   set undodir=~/.config/nvim/backups
   set undofile
 endif
+
+" Russian lang in insert mode
+" Use Ctrl+^ to switch keyboard layout
+set keymap=russian-dvorak
+set iminsert=0
+set imsearch=0
