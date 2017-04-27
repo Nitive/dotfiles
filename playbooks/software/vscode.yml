@@ -58,7 +58,6 @@
       - mrmlnc.vscode-duplicate
       - mrmlnc.vscode-stylefmt
       - msjsdiag.debugger-for-chrome
-      - ricard.PostCSS
       - rtorr.vscode-flow
       - shinnn.stylelint
       - vscodevim.vim
