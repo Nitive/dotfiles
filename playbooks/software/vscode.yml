@@ -62,3 +62,4 @@
       - shinnn.stylelint
       - vscodevim.vim
       - waderyan.gitblame
+      - tomhultonharrop.switch-corresponding # switch between js/css, h/cpp files
