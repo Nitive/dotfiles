@@ -13,6 +13,13 @@
       "import { $2 } from '$1'"
     ]
   },
+  "tp": {
+    "prefix": "tp",
+    "description": "get props from this",
+    "body": [
+      "const { props } = this"
+    ]
+  },
   "react": {
     "prefix": "component",
     "description": "React component template",
