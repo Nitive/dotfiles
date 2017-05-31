@@ -12,5 +12,23 @@
     "body": [
       "import { $2 } from '$1'"
     ]
+  },
+  "react": {
+    "prefix": "component",
+    "description": "React component template",
+    "body": [
+      "import * as React from 'react'",
+      "",
+      "interface I$1Props {",
+      "}",
+      "",
+      "export class $1 extends React.PureComponent<I$1Props, void> {",
+      "  public render() {",
+      "    return (",
+      "      <div></div>",
+      "    )",
+      "  }",
+      "}"
+    ]
   }
 }
