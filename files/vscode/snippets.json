@@ -7,7 +7,7 @@
     ]
   },
   "import": {
-    "prefix": "import",
+    "prefix": "im",
     "description": "import statement",
     "body": [
       "import { $2 } from '$1'"
