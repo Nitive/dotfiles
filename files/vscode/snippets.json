@@ -20,6 +20,13 @@
       "const { props } = this"
     ]
   },
+  "styles": {
+    "prefix": "styles",
+    "description": "require styles",
+    "body": [
+      "const styles = require('.$1.css')"
+    ]
+  },
   "react": {
     "prefix": "component",
     "description": "React component template",
