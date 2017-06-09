@@ -11,6 +11,10 @@
   "haskell.ghcMod.executablePath": "/Users/nitive/.stack/snapshots/x86_64-osx/lts-7.18/8.0.1/bin/ghc-mod",
   "keyboard.dispatch": "keyCode",
   "languageServerCredo.flags": "--strict",
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma":"all",
   "stylelint.enable": true,
   "terminal.external.osxExec": "/Applications/iTerm.app",
   "tslint.autoFixOnSave": true,
@@ -19,9 +23,8 @@
   "vim.enableNeovim": true,
   "window.openFilesInNewWindow": "off",
   "window.zoomLevel": 0,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma":"all",
-  "prettier.printWidth": 120,
-  "prettier.semi": false,
-  "workbench.colorTheme": "Atom One Dark"
+  "workbench.colorTheme": "Atom One Dark",
+  "files.associations": {
+    "*.js": "javascriptreact"
+  }
 }
