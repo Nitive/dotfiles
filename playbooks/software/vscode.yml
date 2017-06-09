@@ -58,7 +58,7 @@
       - mrmlnc.vscode-duplicate
       - mrmlnc.vscode-stylefmt
       - msjsdiag.debugger-for-chrome
-      - rtorr.vscode-flow
+      - flowtype.flow-for-vscode
       - shinnn.stylelint
       - vscodevim.vim
       - waderyan.gitblame
