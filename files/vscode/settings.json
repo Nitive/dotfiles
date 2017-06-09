@@ -3,7 +3,7 @@
   "css.validate": false,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.renderWhitespace": "all",
+  "editor.renderWhitespace": "none",
   "editor.rulers": [80, 120],
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
