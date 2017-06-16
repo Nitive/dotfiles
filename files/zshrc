@@ -16,6 +16,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 RPS1="$(node -v)"
 
 set -o vi
+tabs -2 # set tab size to 2 spaces
 
 # for substring search
 bindkey '^P' up-line-or-search
