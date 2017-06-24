@@ -27,5 +27,8 @@
   "workbench.colorTheme": "Atom One Dark",
   "files.associations": {
     "*.js": "javascriptreact"
+  },
+  "files.exclude": {
+    "node_modules": true
   }
 }
