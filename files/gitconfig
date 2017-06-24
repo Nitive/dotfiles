@@ -10,7 +10,7 @@
   whitespace = cr-at-eol
 [user]
   name = Maxim Samoilov
-  email = samoilowmaxim@gmail.com
+  email = nitive@icloud.com
 [alias]
   type = cat-file -t
   dump = cat-file -p
