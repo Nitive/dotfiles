@@ -49,7 +49,7 @@
       "interface I$1Props {",
       "}",
       "",
-      "export class $1 extends React.PureComponent<I$1Props, void> {",
+      "export class $1 extends React.PureComponent<I$1Props, {}> {",
       "  public render() {",
       "    return (",
       "      <div className={styles.container}>",
