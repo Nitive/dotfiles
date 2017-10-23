@@ -26,4 +26,6 @@ bindkey '^F' autosuggest-accept
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+PATH=$PATH:~/.local/bin/
+
 source ~/.config/aliases
