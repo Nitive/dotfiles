@@ -5,6 +5,8 @@ alias -g g='| grep'
 alias ff='rm -rf'
 alias py='python3 '
 alias nrc='nvim ~/.config/nvim/init.vim'
+alias dc='docker'
+alias dcc='docker-compose'
 
 # force push only if all fetched
 alias gfp='git push --force-with-lease'
