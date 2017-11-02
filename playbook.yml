@@ -5,6 +5,6 @@
   tasks:
     - include: "{{ item }}"
       with_fileglob:
-        - "./playbooks/*.yml"
-        - "./playbooks/software/*.yml"
-        - "./playbooks/langs/*.yml"
+        - "./tasks/*.yml"
+        - "./tasks/software/*.yml"
+        - "./tasks/langs/*.yml"
