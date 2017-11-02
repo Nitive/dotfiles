@@ -187,6 +187,27 @@
 			<key>type</key>
 			<string>QSHotKeyTrigger</string>
 		</dict>
+		<dict>
+			<key>ID</key>
+			<string>0773AD5E-FC05-490E-B91E-0FC6689AA880</string>
+			<key>command</key>
+			<dict>
+				<key>actionID</key>
+				<string>FileOpenAction</string>
+				<key>directID</key>
+				<string>/Applications/Telegram.app</string>
+			</dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyCode</key>
+			<integer>43</integer>
+			<key>modifiers</key>
+			<integer>524576</integer>
+			<key>onPress</key>
+			<true/>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
 	</array>
 </dict>
 </plist>
