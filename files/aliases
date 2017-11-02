@@ -10,7 +10,6 @@ alias dcc='docker-compose'
 
 # force push only if all fetched
 alias gfp='git push --force-with-lease'
-alias gap='git add -p'
 
 # utils
 alias size='du -sh'
