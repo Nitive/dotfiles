@@ -24,6 +24,7 @@
   "vim.enableNeovim": true,
   "window.openFilesInNewWindow": "off",
   "window.zoomLevel": 0,
+  "workbench.fontAliasing": "antialiased",
   "files.associations": {
     "*.js": "javascriptreact"
   },
