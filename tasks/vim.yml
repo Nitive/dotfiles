@@ -1,5 +1,11 @@
 - name: Install Neovim
   homebrew: name=neovim
+  when: ansible_os_family == 'Darwin'
+
+- name: Install Neovim
+  apt: name=neovim
+  when: ansible_os_family == 'Debian'
+  become: yes
 
 - name: Create directory for config
   file:

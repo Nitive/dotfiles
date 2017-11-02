@@ -1,17 +1,11 @@
-export ANSIBLE_LIBRARY=./modules
-export ANSIBLE_INVENTORY=local
-
 install:
-	ansible-playbook -K playbook.yml
+	ansible-playbook -K playbooks/all.yml
 
-vim_remote:
-	ansible-playbook playbook.yml
+vim:
+	ansible-playbook -i $(INVENTORY), playbooks/vim.yml
 
 install-ansible:
 	/usr/bin/ruby -e "$$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	brew install ansible
-
-test:
-	ansible-playbook --tags=test -vvv playbook.yml
 
 .PHONY: install install-ansible test

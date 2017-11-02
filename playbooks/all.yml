@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+
+  tasks:
+    - include: "{{ item }}"
+      with_fileglob:
+        - "../tasks/*.yml"
+        - "../tasks/software/*.yml"
+        - "../tasks/langs/*.yml"
