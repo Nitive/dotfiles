@@ -12,7 +12,7 @@
 
 - name: Link gitconfig
   file:
-    src: "{{ playbook_dir }}/files/gitconfig"
+    src: "{{ playbook_dir }}/../files/gitconfig"
     dest: ~/.gitconfig
     state: link
     force: true
@@ -20,7 +20,7 @@
 
 - name: Link gitexcludes
   file:
-    src: "{{ playbook_dir }}/files/gitexcludes"
+    src: "{{ playbook_dir }}/../files/gitexcludes"
     dest: ~/.gitexcludes
     state: link
     force: true

@@ -8,7 +8,7 @@
 
 - name: Link vscode keybindings
   file:
-    src: "{{ playbook_dir }}/files/quicksilver/Triggers.plist"
+    src: "{{ playbook_dir }}/../files/quicksilver/Triggers.plist"
     path: "~/Library/Application\ Support/Quicksilver/Triggers.plist"
     state: link
     force: true

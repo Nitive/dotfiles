@@ -8,7 +8,7 @@
 
 - name: Link iTerm Dracula profile
   file:
-    src: "{{ playbook_dir }}/files/iterm/Dracula.profile"
+    src: "{{ playbook_dir }}/../files/iterm/Dracula.profile"
     path: "~/Library/Application\ Support/iTerm2/DynamicProfiles/Dracula.profile"
     state: link
     force: true

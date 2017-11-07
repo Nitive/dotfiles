@@ -3,7 +3,7 @@
 
 - name: Link Spectacle keybindings
   file:
-    src: "{{ playbook_dir }}/files/spectacle/Shortcuts.json"
+    src: "{{ playbook_dir }}/../files/spectacle/Shortcuts.json"
     path: "~/Library/Application\ Support/Spectacle/Shortcuts.json"
     state: link
     force: true
