@@ -3,4 +3,4 @@
 - hosts: all
 
   tasks:
-    - include_tasks: "../tasks/vim.yml"
+    - include: "../tasks/vim.yml"
