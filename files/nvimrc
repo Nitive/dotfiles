@@ -8,8 +8,10 @@ let g:neomake_javascript_enabled_makers = ['eslint']
 autocmd! BufWritePost * Neomake
 
 " File manager
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-nmap <leader><leader> :NERDTreeToggle<CR>
+Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+let g:nerdtree_tabs_open_on_console_startup=1
+nmap <leader><leader> :NERDTreeTabsFind<CR>
 
 " Search in project
 Plug 'mileszs/ack.vim'
