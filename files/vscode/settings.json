@@ -4,29 +4,22 @@
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "all",
   "editor.rulers": [80, 120],
   "editor.snippetSuggestions": "top",
-  "editor.tabSize": 2,
   "files.insertFinalNewline": true,
-  "flow.enabled": false,
   "keyboard.dispatch": "keyCode",
-  "languageServerCredo.flags": "--strict",
-  "prettier.printWidth": 120,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma":"all",
-  "purescript.addNpmPath": true,
-  "stylelint.enable": true,
   "terminal.external.osxExec": "/Applications/iTerm.app",
   "tslint.autoFixOnSave": true,
-  "vim.disableAnnoyingNeovimMessage": true,
   "vim.enableNeovim": true,
   "window.openFilesInNewWindow": "off",
   "window.zoomLevel": 0,
   "workbench.fontAliasing": "antialiased",
+  "eslint.autoFixOnSave": true,
+  "workbench.editor.labelFormat": "short",
   "files.associations": {
-    "*.js": "javascriptreact"
+    "*.js": "javascriptreact",
+    ".browserslistrc": "properties"
   },
   "files.exclude": {
     ".pulp-cache": true,
@@ -35,5 +28,11 @@
     "**/node_modules": true,
     "output": true
   },
-  "workbench.colorTheme": "Atom One Dark"
+  "workbench.colorTheme": "Atom One Dark",
+  "[markdown]": {},
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "javascript.autoClosingTags": false,
+  "workbench.statusBar.visible": true
 }
