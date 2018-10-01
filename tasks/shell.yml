@@ -38,3 +38,6 @@
   user:
     name: "{{ ansible_user_id }}"
     shell: zsh
+
+- name: Install Autojump
+  homebrew: name=autojump
