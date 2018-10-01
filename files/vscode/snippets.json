@@ -19,44 +19,5 @@
     "body": [
       "const { props } = this"
     ]
-  },
-  "styles": {
-    "prefix": "styles",
-    "description": "require styles",
-    "body": [
-      "const styles = require('.$1.css')"
-    ]
-  },
-  "connect to redux store": {
-    "prefix": "mapStateToProps",
-    "body": [
-      "function mapStateToProps(state: ReduxState) {",
-      "  return {",
-      "  }",
-      "}",
-      "",
-      "export default connect<IStateProps, {}, {}>(mapStateToProps)($1)"
-    ]
-  },
-  "react": {
-    "prefix": "component",
-    "description": "React component template",
-    "body": [
-      "import * as React from 'react'",
-      "",
-      "const styles = require('.$2.css')",
-      "",
-      "interface I$1Props {",
-      "}",
-      "",
-      "export class $1 extends React.PureComponent<I$1Props, {}> {",
-      "  public render() {",
-      "    return (",
-      "      <div className={styles.container}>",
-      "      </div>",
-      "    )",
-      "  }",
-      "}"
-    ]
   }
 }
