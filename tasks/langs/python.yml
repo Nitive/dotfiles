@@ -1,2 +1,2 @@
 - name: Install Python 3
-  homebrew: name=python3
+  homebrew: name=python
