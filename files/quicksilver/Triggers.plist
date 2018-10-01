@@ -6,15 +6,11 @@
 	<array>
 		<dict>
 			<key>ID</key>
-			<string>QSGetGlobalSelectionTrigger</string>
+			<string>QSActivateTextModeTrigger</string>
 			<key>command</key>
-			<string>QSGetGlobalSelectionCommand</string>
+			<string>QSActivateTextModeCommand</string>
 			<key>enabled</key>
-			<true/>
-			<key>keyCode</key>
-			<integer>53</integer>
-			<key>modifiers</key>
-			<integer>1048840</integer>
+			<false/>
 			<key>set</key>
 			<string>Quicksilver</string>
 			<key>type</key>
@@ -43,59 +39,56 @@
 		</dict>
 		<dict>
 			<key>ID</key>
-			<string>66F00584-FD56-4021-A241-C88640A04E40</string>
+			<string>42633E8B-56DD-4429-A8E3-0E6E6BA40FA1</string>
 			<key>command</key>
 			<dict>
 				<key>actionID</key>
 				<string>FileOpenAction</string>
+				<key>directArchive</key>
+				<dict>
+					<key>class</key>
+					<string>QSObject</string>
+					<key>data</key>
+					<dict>
+						<key>public.utf8-plain-text</key>
+						<string>/Applications/zoom.us.app</string>
+					</dict>
+					<key>properties</key>
+					<dict>
+						<key>QSObjectName</key>
+						<string>/Applications/zoom.us.app</string>
+						<key>QSObjectType</key>
+						<string>public.utf8-plain-text</string>
+					</dict>
+				</dict>
 				<key>directID</key>
-				<string>/Applications/Safari.app</string>
+				<string>/Applications/zoom.us.app</string>
 			</dict>
-			<key>delay</key>
-			<false/>
-			<key>delayInterval</key>
-			<real>1</real>
 			<key>enabled</key>
 			<true/>
 			<key>keyCode</key>
-			<integer>45</integer>
+			<integer>3</integer>
 			<key>modifiers</key>
 			<integer>524576</integer>
 			<key>onPress</key>
 			<true/>
-			<key>onRepeat</key>
-			<false/>
-			<key>onRepeatInterval</key>
-			<real>1</real>
 			<key>type</key>
 			<string>QSHotKeyTrigger</string>
 		</dict>
 		<dict>
 			<key>ID</key>
-			<string>QSActivateTextModeTrigger</string>
-			<key>command</key>
-			<string>QSActivateTextModeCommand</string>
-			<key>enabled</key>
-			<false/>
-			<key>set</key>
-			<string>Quicksilver</string>
-			<key>type</key>
-			<string>QSHotKeyTrigger</string>
-		</dict>
-		<dict>
-			<key>ID</key>
-			<string>6BD893F0-DEF1-4D17-A9B8-5D3B4EDAE371</string>
+			<string>C3419EC6-675B-4AFA-B213-0ACDCBBE83B0</string>
 			<key>command</key>
 			<dict>
 				<key>actionID</key>
 				<string>FileOpenAction</string>
 				<key>directID</key>
-				<string>/Applications/Mail.app</string>
+				<string>/Applications/iTunes.app</string>
 			</dict>
 			<key>enabled</key>
 			<true/>
 			<key>keyCode</key>
-			<integer>46</integer>
+			<integer>0</integer>
 			<key>modifiers</key>
 			<integer>524576</integer>
 			<key>onPress</key>
@@ -126,43 +119,17 @@
 		</dict>
 		<dict>
 			<key>ID</key>
-			<string>D81E8C12-51D1-49CC-B5EA-6B366761EA38</string>
+			<string>QSGetGlobalSelectionTrigger</string>
 			<key>command</key>
-			<dict>
-				<key>actionID</key>
-				<string>FileOpenAction</string>
-				<key>directID</key>
-				<string>/Applications/Visual Studio Code.app</string>
-			</dict>
+			<string>QSGetGlobalSelectionCommand</string>
 			<key>enabled</key>
 			<true/>
 			<key>keyCode</key>
-			<integer>34</integer>
+			<integer>53</integer>
 			<key>modifiers</key>
-			<integer>524576</integer>
-			<key>onPress</key>
-			<true/>
-			<key>type</key>
-			<string>QSHotKeyTrigger</string>
-		</dict>
-		<dict>
-			<key>ID</key>
-			<string>C3419EC6-675B-4AFA-B213-0ACDCBBE83B0</string>
-			<key>command</key>
-			<dict>
-				<key>actionID</key>
-				<string>FileOpenAction</string>
-				<key>directID</key>
-				<string>/Applications/iTunes.app</string>
-			</dict>
-			<key>enabled</key>
-			<true/>
-			<key>keyCode</key>
-			<integer>0</integer>
-			<key>modifiers</key>
-			<integer>524576</integer>
-			<key>onPress</key>
-			<true/>
+			<integer>1048840</integer>
+			<key>set</key>
+			<string>Quicksilver</string>
 			<key>type</key>
 			<string>QSHotKeyTrigger</string>
 		</dict>
@@ -201,6 +168,98 @@
 			<true/>
 			<key>keyCode</key>
 			<integer>43</integer>
+			<key>modifiers</key>
+			<integer>524576</integer>
+			<key>onPress</key>
+			<true/>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>6BD893F0-DEF1-4D17-A9B8-5D3B4EDAE371</string>
+			<key>command</key>
+			<dict>
+				<key>actionID</key>
+				<string>FileOpenAction</string>
+				<key>directID</key>
+				<string>/Applications/Mail.app</string>
+			</dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyCode</key>
+			<integer>46</integer>
+			<key>modifiers</key>
+			<integer>524576</integer>
+			<key>onPress</key>
+			<true/>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>66F00584-FD56-4021-A241-C88640A04E40</string>
+			<key>command</key>
+			<dict>
+				<key>actionID</key>
+				<string>FileOpenAction</string>
+				<key>directID</key>
+				<string>/Applications/Safari.app</string>
+			</dict>
+			<key>delay</key>
+			<false/>
+			<key>delayInterval</key>
+			<real>1</real>
+			<key>enabled</key>
+			<true/>
+			<key>keyCode</key>
+			<integer>45</integer>
+			<key>modifiers</key>
+			<integer>524576</integer>
+			<key>onPress</key>
+			<true/>
+			<key>onRepeat</key>
+			<false/>
+			<key>onRepeatInterval</key>
+			<real>1</real>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>D81E8C12-51D1-49CC-B5EA-6B366761EA38</string>
+			<key>command</key>
+			<dict>
+				<key>actionID</key>
+				<string>FileOpenAction</string>
+				<key>directID</key>
+				<string>/Applications/Visual Studio Code.app</string>
+			</dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyCode</key>
+			<integer>34</integer>
+			<key>modifiers</key>
+			<integer>524576</integer>
+			<key>onPress</key>
+			<true/>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>7FD5059B-9A34-4732-BC85-8387EB18D536</string>
+			<key>command</key>
+			<dict>
+				<key>actionID</key>
+				<string>FileOpenAction</string>
+				<key>directID</key>
+				<string>/Applications/Opera.app</string>
+			</dict>
+			<key>enabled</key>
+			<false/>
+			<key>keyCode</key>
+			<integer>41</integer>
 			<key>modifiers</key>
 			<integer>524576</integer>
 			<key>onPress</key>
