@@ -1,6 +1,9 @@
 install:
 	ansible-playbook -K playbooks/all.yml
 
+install-no-password:
+	ansible-playbook playbooks/all.yml --skip-tags=require_password
+
 vim:
 	ansible-playbook playbooks/vim.yml
 
