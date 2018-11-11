@@ -1,2 +1,0 @@
-- name: Install f.lux
-  homebrew_cask: name=flux
