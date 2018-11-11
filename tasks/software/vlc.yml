@@ -1,2 +1,0 @@
-- name: Install VLC
-  homebrew_cask: name=vlc

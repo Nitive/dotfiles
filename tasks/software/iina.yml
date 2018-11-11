@@ -1,0 +1,2 @@
+- name: Install IINA
+  homebrew_cask: name=iina
