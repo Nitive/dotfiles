@@ -18,6 +18,7 @@ alias size='du -sh'
 alias reload='source ~/.zshrc'
 alias pl="cd ~/Desktop/playground"
 alias nts="nvim ~/Desktop/notes.md"
+alias pomodoro="~/Desktop/pomodoro/bin/pomodoro"
 
 function ya {
   cd ~/Work/ya/$1
