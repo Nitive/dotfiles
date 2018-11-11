@@ -28,7 +28,7 @@
     "**/node_modules": true,
     "output": true
   },
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Default Light+",
   "[markdown]": {},
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "never",
