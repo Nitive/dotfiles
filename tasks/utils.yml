@@ -1,4 +1,4 @@
-- name: Install brew rmtree (Utility to remove packages with dependencies)
+- name: Install brew rmtree (Utility to remove packages with its dependencies)
   homebrew_tap: name=beeftornado/rmtree
 
 - name: Install cloc (Utility to count lines of code in project)
