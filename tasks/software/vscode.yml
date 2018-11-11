@@ -42,24 +42,21 @@
     extensions:
       - EditorConfig.EditorConfig
       - Orta.vscode-jest
-      - PeterJausovec.vscode-docker
       - QassimFarid.ejs-language-support
       - WakaTime.vscode-wakatime
       - abierbaum.vscode-file-peek
       - akamud.vscode-theme-onedark
       - dbaeumer.vscode-eslint
       - eg2.tslint
-      - henriiik.vscode-sort
-      - hoovercj.vscode-ghc-mod
       - ionutvmi.path-autocomplete
-      - joshjg.vscode-credo
-      - justusadam.language-haskell
-      - mjmcloug.vscode-elixir
       - mrmlnc.vscode-duplicate
       - mrmlnc.vscode-stylefmt
       - msjsdiag.debugger-for-chrome
-      - flowtype.flow-for-vscode
+      - gcazaciuc.vscode-flow-ide
       - shinnn.stylelint
       - vscodevim.vim
       - waderyan.gitblame
       - tomhultonharrop.switch-corresponding # switch between js/css, h/cpp files
+      - mgmcdermott.vscode-language-babel
+      - eamodio.gitlens
+      - pflannery.vscode-versionlens
