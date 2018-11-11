@@ -28,7 +28,7 @@
 - name: Link vscode snippets
   file:
     src: "{{ playbook_dir }}/../files/vscode/snippets.json"
-    path: "~/Library/Application\ Support/Code/User/snippets/{{ item }}"
+    path: "~/Library/Application\ Support/Code/User/snippets/{{ file }}"
     state: link
     force: true
   with_items:
@@ -36,6 +36,8 @@
     - javascriptreact.json
     - typescript.json
     - typescriptreact.json
+  loop_control:
+    loop_var: file
 
 - name: Install VSCode extensions
   vscode:
