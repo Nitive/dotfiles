@@ -6,6 +6,30 @@
 	<array>
 		<dict>
 			<key>ID</key>
+			<string>QSRelaunchSelfTrigger</string>
+			<key>applicationScope</key>
+			<array>
+				<string>com.blacktree.Quicksilver</string>
+			</array>
+			<key>applicationScopeType</key>
+			<integer>1</integer>
+			<key>command</key>
+			<string>QSRelaunchSelfCommand</string>
+			<key>enabled</key>
+			<true/>
+			<key>keyCode</key>
+			<integer>12</integer>
+			<key>modifiers</key>
+			<integer>1835305</integer>
+			<key>onPress</key>
+			<true/>
+			<key>set</key>
+			<string>Quicksilver</string>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>QSActivateTextModeTrigger</string>
 			<key>command</key>
 			<string>QSActivateTextModeCommand</string>
@@ -23,6 +47,23 @@
 			<dict>
 				<key>actionID</key>
 				<string>FileOpenAction</string>
+				<key>directArchive</key>
+				<dict>
+					<key>class</key>
+					<string>QSObject</string>
+					<key>data</key>
+					<dict>
+						<key>public.utf8-plain-text</key>
+						<string>/Applications/iTerm.app</string>
+					</dict>
+					<key>properties</key>
+					<dict>
+						<key>QSObjectName</key>
+						<string>/Applications/iTerm.app</string>
+						<key>QSObjectType</key>
+						<string>public.utf8-plain-text</string>
+					</dict>
+				</dict>
 				<key>directID</key>
 				<string>/Applications/iTerm.app</string>
 			</dict>
@@ -161,6 +202,23 @@
 			<dict>
 				<key>actionID</key>
 				<string>FileOpenAction</string>
+				<key>directArchive</key>
+				<dict>
+					<key>class</key>
+					<string>QSObject</string>
+					<key>data</key>
+					<dict>
+						<key>public.utf8-plain-text</key>
+						<string>/Applications/Telegram.app</string>
+					</dict>
+					<key>properties</key>
+					<dict>
+						<key>QSObjectName</key>
+						<string>/Applications/Telegram.app</string>
+						<key>QSObjectType</key>
+						<string>public.utf8-plain-text</string>
+					</dict>
+				</dict>
 				<key>directID</key>
 				<string>/Applications/Telegram.app</string>
 			</dict>
@@ -253,6 +311,23 @@
 			<dict>
 				<key>actionID</key>
 				<string>FileOpenAction</string>
+				<key>directArchive</key>
+				<dict>
+					<key>class</key>
+					<string>QSObject</string>
+					<key>data</key>
+					<dict>
+						<key>public.utf8-plain-text</key>
+						<string>/Applications/Opera.app</string>
+					</dict>
+					<key>properties</key>
+					<dict>
+						<key>QSObjectName</key>
+						<string>/Applications/Opera.app</string>
+						<key>QSObjectType</key>
+						<string>public.utf8-plain-text</string>
+					</dict>
+				</dict>
 				<key>directID</key>
 				<string>/Applications/Opera.app</string>
 			</dict>
