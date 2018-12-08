@@ -27,7 +27,7 @@
 [credential]
   helper = osxkeychain
 [push]
-  default = upstream
+  default = simple
 [filter "lfs"]
   required = true
   clean = git-lfs clean -- %f
