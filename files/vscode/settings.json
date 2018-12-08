@@ -15,7 +15,6 @@
   "window.openFilesInNewWindow": "off",
   "window.zoomLevel": 0,
   "workbench.fontAliasing": "antialiased",
-  "eslint.autoFixOnSave": true,
   "workbench.editor.labelFormat": "short",
   "files.associations": {
     "*.js": "javascriptreact",
