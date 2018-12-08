@@ -37,5 +37,5 @@ source ~/.config/aliases
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
-# added by travis gem
-[ -f /Users/nitive/.travis/travis.sh ] && source /Users/nitive/.travis/travis.sh
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="`gem environment gemdir`/bin:$PATH"
