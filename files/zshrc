@@ -30,6 +30,9 @@ export PATH=~/.local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/opt/postgresql@9.6/bin:$PATH
 
+export LANG=en
+export LC_ALL=en_US.UTF-8
+
 source ~/.config/aliases
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
