@@ -1,0 +1,8 @@
+- name: Install Java
+  homebrew_cask: name=java
+
+- name: Install Clojure
+  homebrew: name=clojure
+
+- name: Install Planck
+  homebrew: name=planck
