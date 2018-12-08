@@ -47,23 +47,6 @@
 			<dict>
 				<key>actionID</key>
 				<string>FileOpenAction</string>
-				<key>directArchive</key>
-				<dict>
-					<key>class</key>
-					<string>QSObject</string>
-					<key>data</key>
-					<dict>
-						<key>public.utf8-plain-text</key>
-						<string>/Applications/iTerm.app</string>
-					</dict>
-					<key>properties</key>
-					<dict>
-						<key>QSObjectName</key>
-						<string>/Applications/iTerm.app</string>
-						<key>QSObjectType</key>
-						<string>public.utf8-plain-text</string>
-					</dict>
-				</dict>
 				<key>directID</key>
 				<string>/Applications/iTerm.app</string>
 			</dict>
@@ -202,23 +185,6 @@
 			<dict>
 				<key>actionID</key>
 				<string>FileOpenAction</string>
-				<key>directArchive</key>
-				<dict>
-					<key>class</key>
-					<string>QSObject</string>
-					<key>data</key>
-					<dict>
-						<key>public.utf8-plain-text</key>
-						<string>/Applications/Telegram.app</string>
-					</dict>
-					<key>properties</key>
-					<dict>
-						<key>QSObjectName</key>
-						<string>/Applications/Telegram.app</string>
-						<key>QSObjectType</key>
-						<string>public.utf8-plain-text</string>
-					</dict>
-				</dict>
 				<key>directID</key>
 				<string>/Applications/Telegram.app</string>
 			</dict>
@@ -226,6 +192,27 @@
 			<true/>
 			<key>keyCode</key>
 			<integer>43</integer>
+			<key>modifiers</key>
+			<integer>524576</integer>
+			<key>onPress</key>
+			<true/>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>8A211D69-6D89-46F7-A1DB-935E9E2F42C0</string>
+			<key>command</key>
+			<dict>
+				<key>actionID</key>
+				<string>FileOpenAction</string>
+				<key>directID</key>
+				<string>/Applications/Figma.app</string>
+			</dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyCode</key>
+			<integer>16</integer>
 			<key>modifiers</key>
 			<integer>524576</integer>
 			<key>onPress</key>
@@ -311,23 +298,6 @@
 			<dict>
 				<key>actionID</key>
 				<string>FileOpenAction</string>
-				<key>directArchive</key>
-				<dict>
-					<key>class</key>
-					<string>QSObject</string>
-					<key>data</key>
-					<dict>
-						<key>public.utf8-plain-text</key>
-						<string>/Applications/Opera.app</string>
-					</dict>
-					<key>properties</key>
-					<dict>
-						<key>QSObjectName</key>
-						<string>/Applications/Opera.app</string>
-						<key>QSObjectType</key>
-						<string>public.utf8-plain-text</string>
-					</dict>
-				</dict>
 				<key>directID</key>
 				<string>/Applications/Opera.app</string>
 			</dict>
