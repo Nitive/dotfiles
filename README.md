@@ -1,6 +1,5 @@
 
 # Dotfiles
-> Automated setup software, dotfiles, etc
 
 > All machines must suffer
 
