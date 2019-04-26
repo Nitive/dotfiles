@@ -10,4 +10,4 @@
 
 ## Setup
 1. Run `make install-ansible`. It installs [Homebrew](brew.sh) and [Ansible](ansible.com)
-2. Run `make install`. It installs another stuff via ansible playbooks.
+2. Run `make install`. It installs other stuff via ansible playbooks.
