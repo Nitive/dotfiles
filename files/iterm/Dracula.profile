@@ -336,14 +336,16 @@
       "Minimum Contrast": 0,
       "Mouse Reporting": true,
       "Name": "Dracula",
+      "Non Ascii Font": "Monaco 12",
       "Non-ASCII Anti Aliased": true,
       "Normal Font": "FiraCode-Light 12",
+      "Only The Default BG Color Uses Transparency": false,
       "Option Key Sends": 0,
       "Prompt Before Closing 2": 0,
       "Right Option Key Sends": 0,
       "Rows": 25,
       "Screen": -1,
-      "Scrollback Lines": 1000,
+      "Scrollback Lines": 0,
       "Scrollback With Status Bar": false,
       "Scrollback in Alternate Screen": true,
       "Selected Text Color": {
@@ -365,6 +367,7 @@
       "Session Close Undo Timeout": 120,
       "Set Local Environment Vars": true,
       "Shortcut": "",
+      "Show Status Bar": true,
       "Silence Bell": false,
       "Smart Cursor Color": true,
       "Smart Selection Rules": [
@@ -424,8 +427,41 @@
           "regex": "\\btelnet:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\\-]+\\.)*[a-zA-Z0-9\\-]+\\b"
         }
       ],
+      "Status Bar Layout": {
+        "advanced configuration": {
+          "algorithm": 0,
+          "font": ".AppleSystemUIFont 12"
+        },
+        "components": [
+          {
+            "class": "iTermStatusBarWorkingDirectoryComponent",
+            "configuration": {
+              "knobs": {
+                "base: compression resistance": 1,
+                "base: priority": 5,
+                "maxwidth": 1.7976931348623157e+308,
+                "minwidth": 0,
+                "path": "path",
+                "shared text color": {
+                  "Alpha Component": 1,
+                  "Blue Component": 0.63,
+                  "Color Space": "sRGB",
+                  "Green Component": 0.63,
+                  "Red Component": 0.9
+                }
+              },
+              "layout advanced configuration dictionary value": {
+                "algorithm": 0,
+                "font": ".AppleSystemUIFont 12"
+              }
+            }
+          }
+        ]
+      },
       "Sync Title": false,
-      "Tags": [],
+      "Tags": [
+        "Dynamic"
+      ],
       "Terminal Type": "xterm-256color",
       "Transparency": 0.06819064,
       "Triggers": [],
