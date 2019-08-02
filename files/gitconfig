@@ -11,6 +11,7 @@
 [user]
   name = Maxim Samoilov
   email = nitive@icloud.com
+  signingkey = E8DDE64F
 [alias]
   type = cat-file -t
   dump = cat-file -p
@@ -41,3 +42,7 @@
   insteadOf = https://github.com/
 [branch]
   autoSetupMerge = false
+[commit]
+  gpgsign = true
+[gpg]
+  program = gpg2

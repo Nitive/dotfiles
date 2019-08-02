@@ -1,0 +1,2 @@
+- name: Install GPG Suite
+  homebrew_cask: name=gpg-suite
