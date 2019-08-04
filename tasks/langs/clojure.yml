@@ -4,5 +4,8 @@
 - name: Install Clojure
   homebrew: name=clojure
 
+- name: Install Leiningen
+  homebrew: name=leiningen
+
 - name: Install Planck
   homebrew: name=planck
