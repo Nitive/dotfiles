@@ -11,7 +11,7 @@
 [user]
   name = Maxim Samoilov
   email = nitive@icloud.com
-  signingkey = E8DDE64F
+  signingkey = 0D07E54B
 [alias]
   type = cat-file -t
   dump = cat-file -p
