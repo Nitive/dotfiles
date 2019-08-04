@@ -1,2 +1,12 @@
 - name: Install Firefox
   homebrew_cask: name=firefox
+
+- name: Disable safe mode key (alt) to allow run Firefox with Alt+B hotkey
+  file:
+    src: "{{ playbook_dir }}/../files/setenv.MOZ_DISABLE_SAFE_MODE_KEY.plist"
+    path: ~/Library/LaunchAgents/setenv.MOZ_DISABLE_SAFE_MODE_KEY.plist
+    state: link
+    force: true
+
+- name: Load firefox config to launchctl
+  command: launchctl load -w ~/Library/LaunchAgents/setenv.MOZ_DISABLE_SAFE_MODE_KEY.plist
