@@ -1,10 +1,35 @@
 // Place your key bindings in this file to overwrite the defaults
 [
   { "key": "ctrl+n", "command": "workbench.action.quickOpenNavigateNext", "when": "inQuickOpen" },
-  { "key": "ctrl+p", "command": "workbench.action.quickOpenNavigatePrevious", "when": "inQuickOpen" },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpenNavigatePrevious",
+    "when": "inQuickOpen"
+  },
   { "key": "ctrl+f", "command": "cursorRight", "when": "editorTextFocus && vim.mode == 'Insert'" },
   { "key": "ctrl+tab", "command": "workbench.action.nextEditor" },
   { "key": "ctrl+shift+tab", "command": "workbench.action.previousEditor" },
   { "key": "cmd+r", "command": "extension.switch_corresponding_same_dir" },
-  { "key": "ctrl+alt+f", "command": "stylefmt.execute" }
+  {
+    "key": "ctrl+alt+f",
+    "command": "stylefmt.execute"
+  },
+  {
+    "key": "ctrl+shift+f8",
+    "command": "-editor.action.marker.prevInFiles",
+    "when": "editorFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+f8",
+    "command": "-editor.action.marker.nextInFiles",
+    "when": "editorFocus && !editorReadonly"
+  },
+  {
+    "key": "f8",
+    "command": "editor.action.marker.next"
+  },
+  {
+    "key": "shift+f8",
+    "command": "editor.action.marker.prev"
+  }
 ]
