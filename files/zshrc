@@ -13,6 +13,8 @@ local ret_status=" %(?:%{$fg_bold[green]%}λ:%{$fg_bold[red]%}λ %s)"
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+export PATH="/usr/local/opt/node@10/bin:$PATH"
+
 RPS1="$(node -v)"
 
 set -o vi
@@ -41,3 +43,4 @@ source ~/.config/aliases
 
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="`gem environment gemdir`/bin:$PATH"
+export PATH="/usr/local/opt/gettext/bin:$PATH"
