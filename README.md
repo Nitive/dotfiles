@@ -1,7 +1,7 @@
 
 # Dotfiles
 
-> All machines must suffer
+> The machines must suffer
 
 ![ButovoDynamics](./all-machines-must-suffer.jpg)
 
