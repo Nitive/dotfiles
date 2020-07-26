@@ -12,7 +12,7 @@ function fish_prompt
     set_color normal
 
     set_color blue
-    printf (kubectl-current-context -s='⎈ ')
+    printf (kubectl-current-context -s='⎈')
     set_color normal
 
     # Line 2
