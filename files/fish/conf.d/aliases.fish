@@ -18,6 +18,7 @@ alias gpsup="git push --set-upstream origin $git_current_branch"
 alias gsta='git stash push'
 alias gstaa='git stash apply'
 alias gl='git pull'
+alias gf='git fetch'
 alias gb='git branch'
 
 function gbdl
