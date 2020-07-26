@@ -11,3 +11,5 @@
 
 - name: Load firefox config to launchctl
   command: launchctl load -w ~/Library/LaunchAgents/setenv.MOZ_DISABLE_SAFE_MODE_KEY.plist
+  register: launchctl
+  changed_when: "'service already loaded' not in launchctl.stderr"
