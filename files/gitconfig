@@ -1,48 +1,48 @@
 [core]
-  excludesfile = ~/.gitexcludes
-  quotepath = false
-  autocrlf = false
-  safecrlf = true
-  mergetool = vimdiff
-  pager = less -+$LESS -R -x1,3
-  symlinks = false
-  editor = nvim -n
-  whitespace = cr-at-eol
+	excludesfile = ~/.gitexcludes
+	quotepath = false
+	autocrlf = false
+	safecrlf = true
+	mergetool = vimdiff
+	pager = delta --dark
+	editor = nvim -n
+	whitespace = cr-at-eol
+	ignorecase = false
 [user]
-  name = Maxim Samoilov
-  email = nitive@icloud.com
-  signingkey = 0D07E54B
+	name = Maxim Samoilov
+	email = nitive@icloud.com
+	signingkey = 0D07E54B
 [alias]
-  type = cat-file -t
-  dump = cat-file -p
-  today = log --since=6am
+	type = cat-file -t
+	dump = cat-file -p
+	today = log --since=6am
 [filter "media"]
-  clean = git-media-clean %f
-  smudge = git-media-smudge %f
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
 [mergetool]
-  keepBackup = true
+	keepBackup = true
 [color]
-  ui = always
-[url "https://"]
-  insteadOf = git://
+	ui = always
 [credential]
-  helper = osxkeychain
+	helper = osxkeychain
 [push]
-  default = simple
+	default = simple
 [filter "lfs"]
-  required = true
-  clean = git-lfs clean -- %f
-  smudge = git-lfs smudge -- %f
-  process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
 [merge]
-  tool = vimdiff
+	tool = vimdiff
 [diff]
-  compactionHeuristic = true
-[url "git@github.com:"]
-  insteadOf = https://github.com/
+	compactionHeuristic = true
 [branch]
-  autoSetupMerge = false
+	autoSetupMerge = false
 [commit]
-  gpgsign = true
+	gpgsign = true
 [gpg]
-  program = gpg2
+	program = gpg
+[diff "sopsdiffer"]
+	textconv = sops -d
+[fetch]
+	prune = true

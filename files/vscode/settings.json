@@ -17,7 +17,8 @@
   "files.associations": {
     "*.js": "javascriptreact",
     ".browserslistrc": "properties",
-    ".eslintrc": "jsonc"
+    ".eslintrc": "jsonc",
+    "*helmfile.yaml": "helm"
   },
   "files.exclude": {
     ".enb": true,
@@ -29,20 +30,13 @@
     "build/react/assets": true,
     "output": true
   },
-  "workbench.colorTheme": "Default Light+",
   "[markdown]": {},
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "never",
   "breadcrumbs.enabled": true,
   "workbench.statusBar.visible": true,
-  "prettier.printWidth": 100,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
   "explorer.confirmDragAndDrop": false,
-  "search.location": "sidebar",
   "vim.neovimPath": "/usr/local/bin/nvim",
-  "prettier.jsxSingleQuote": true,
   "javascript.autoClosingTags": false,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -76,5 +70,38 @@
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "extensions.ignoreRecommendations": false
+  "extensions.ignoreRecommendations": false,
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "jenkins.pipeline.linter.connector.user": "maxim-samoilov",
+  "jenkins.pipeline.linter.connector.pass": "yes-disdain-purdue-termite-seemly",
+  "jenkins.pipeline.linter.connector.url": "https://jenkins.csssr.ru/pipeline-model-converter/validate",
+  "workbench.colorTheme": "Atom One Dark",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vs-kubernetes": {
+    "vs-kubernetes.minikube-path": "/Users/nitive/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+  },
+  "yaml.schemas": {
+    "file:///Users/nitive/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/workflow.schema.json": "/.github/workflows/*.yml",
+    "file:///Users/nitive/.vscode/extensions/me-dutour-mathieu.vscode-github-actions-2.2.7/schemas/action.schema.json": "/action.yml"
+  },
+  "terraform.indexing": {
+    "enabled": true,
+    "liveIndexing": false,
+    "delay": 500,
+    "exclude": [
+      ".terraform/**/*",
+      "**/.terraform/**/*"
+    ]
+  },
+  "terraform.languageServer": {
+    "enabled": false,
+    "args": []
+  },
+  "[helm]": {},
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true
 }

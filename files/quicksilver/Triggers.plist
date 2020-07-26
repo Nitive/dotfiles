@@ -6,6 +6,27 @@
 	<array>
 		<dict>
 			<key>ID</key>
+			<string>BC200EDF-A3F5-4768-B535-1C0ABE0A6C21</string>
+			<key>command</key>
+			<dict>
+				<key>actionID</key>
+				<string>FileOpenAction</string>
+				<key>directID</key>
+				<string>/Applications/Sublime Text.app</string>
+			</dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyCode</key>
+			<integer>41</integer>
+			<key>modifiers</key>
+			<integer>524576</integer>
+			<key>onPress</key>
+			<true/>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>QSRelaunchSelfTrigger</string>
 			<key>applicationScope</key>
 			<array>
@@ -63,18 +84,39 @@
 		</dict>
 		<dict>
 			<key>ID</key>
-			<string>C3419EC6-675B-4AFA-B213-0ACDCBBE83B0</string>
+			<string>E78686C8-F26F-4854-8E68-3DC190EFE07F</string>
 			<key>command</key>
 			<dict>
 				<key>actionID</key>
 				<string>FileOpenAction</string>
 				<key>directID</key>
-				<string>/Applications/iTunes.app</string>
+				<string>/System/Applications/Mail.app</string>
 			</dict>
 			<key>enabled</key>
 			<true/>
 			<key>keyCode</key>
-			<integer>0</integer>
+			<integer>46</integer>
+			<key>modifiers</key>
+			<integer>524576</integer>
+			<key>onPress</key>
+			<true/>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>FB9161E8-4C52-473A-931B-CF24F551E893</string>
+			<key>command</key>
+			<dict>
+				<key>actionID</key>
+				<string>FileOpenAction</string>
+				<key>directID</key>
+				<string>/System/Applications/Utilities/Terminal.app</string>
+			</dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyCode</key>
+			<integer>37</integer>
 			<key>modifiers</key>
 			<integer>524576</integer>
 			<key>onPress</key>
@@ -85,6 +127,12 @@
 		<dict>
 			<key>ID</key>
 			<string>853DD642-A7D6-410B-AB43-2F35966470E4</string>
+			<key>applicationScope</key>
+			<array>
+				<string>org.blenderfoundation.blender</string>
+			</array>
+			<key>applicationScopeType</key>
+			<integer>-1</integer>
 			<key>command</key>
 			<dict>
 				<key>actionID</key>
@@ -121,61 +169,6 @@
 		</dict>
 		<dict>
 			<key>ID</key>
-			<string>835F2496-85A1-465F-9A8B-53883FF2C12A</string>
-			<key>command</key>
-			<dict>
-				<key>actionID</key>
-				<string>FileOpenAction</string>
-				<key>directID</key>
-				<string>/Applications/Slack.app</string>
-			</dict>
-			<key>enabled</key>
-			<true/>
-			<key>onPress</key>
-			<true/>
-			<key>type</key>
-			<string>QSHotKeyTrigger</string>
-		</dict>
-		<dict>
-			<key>ID</key>
-			<string>0773AD5E-FC05-490E-B91E-0FC6689AA880</string>
-			<key>command</key>
-			<dict>
-				<key>actionID</key>
-				<string>FileOpenAction</string>
-				<key>directID</key>
-				<string>/Applications/Telegram.app</string>
-			</dict>
-			<key>enabled</key>
-			<true/>
-			<key>keyCode</key>
-			<integer>43</integer>
-			<key>modifiers</key>
-			<integer>524576</integer>
-			<key>onPress</key>
-			<true/>
-			<key>type</key>
-			<string>QSHotKeyTrigger</string>
-		</dict>
-		<dict>
-			<key>ID</key>
-			<string>8A211D69-6D89-46F7-A1DB-935E9E2F42C0</string>
-			<key>command</key>
-			<dict>
-				<key>actionID</key>
-				<string>FileOpenAction</string>
-				<key>directID</key>
-				<string>/Applications/Figma.app</string>
-			</dict>
-			<key>enabled</key>
-			<true/>
-			<key>onPress</key>
-			<true/>
-			<key>type</key>
-			<string>QSHotKeyTrigger</string>
-		</dict>
-		<dict>
-			<key>ID</key>
 			<string>44E308C2-39EF-4041-9947-B0F491391115</string>
 			<key>command</key>
 			<dict>
@@ -186,27 +179,6 @@
 			</dict>
 			<key>enabled</key>
 			<true/>
-			<key>onPress</key>
-			<true/>
-			<key>type</key>
-			<string>QSHotKeyTrigger</string>
-		</dict>
-		<dict>
-			<key>ID</key>
-			<string>6BD893F0-DEF1-4D17-A9B8-5D3B4EDAE371</string>
-			<key>command</key>
-			<dict>
-				<key>actionID</key>
-				<string>FileOpenAction</string>
-				<key>directID</key>
-				<string>/Applications/Mail.app</string>
-			</dict>
-			<key>enabled</key>
-			<true/>
-			<key>keyCode</key>
-			<integer>46</integer>
-			<key>modifiers</key>
-			<integer>524576</integer>
 			<key>onPress</key>
 			<true/>
 			<key>type</key>
@@ -235,18 +207,72 @@
 		</dict>
 		<dict>
 			<key>ID</key>
-			<string>B38D3EAF-D349-4AF5-93C8-1A9659195FCC</string>
+			<string>C9D75B9B-29DD-4068-9BA0-6E9E8F797AEC</string>
+			<key>applicationScope</key>
+			<array>
+				<string>org.blenderfoundation.blender</string>
+			</array>
+			<key>applicationScopeType</key>
+			<integer>-1</integer>
 			<key>command</key>
 			<dict>
 				<key>actionID</key>
 				<string>FileOpenAction</string>
 				<key>directID</key>
-				<string>/Applications/Notion.app</string>
+				<string>/Applications/Spotify.app</string>
 			</dict>
 			<key>enabled</key>
 			<true/>
 			<key>keyCode</key>
-			<integer>37</integer>
+			<integer>0</integer>
+			<key>modifiers</key>
+			<integer>524576</integer>
+			<key>onPress</key>
+			<true/>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>0773AD5E-FC05-490E-B91E-0FC6689AA880</string>
+			<key>command</key>
+			<dict>
+				<key>actionID</key>
+				<string>FileOpenAction</string>
+				<key>directID</key>
+				<string>/Applications/Telegram.app</string>
+			</dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyCode</key>
+			<integer>43</integer>
+			<key>modifiers</key>
+			<integer>524576</integer>
+			<key>onPress</key>
+			<true/>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>EB1623F4-0900-4BAD-801D-3E83C4741909</string>
+			<key>applicationScope</key>
+			<array>
+				<string>org.blenderfoundation.blender</string>
+			</array>
+			<key>applicationScopeType</key>
+			<integer>-1</integer>
+			<key>command</key>
+			<dict>
+				<key>actionID</key>
+				<string>FileOpenAction</string>
+				<key>directID</key>
+				<string>/Applications/Blender.app</string>
+			</dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyCode</key>
+			<integer>45</integer>
 			<key>modifiers</key>
 			<integer>524576</integer>
 			<key>onPress</key>
@@ -262,7 +288,7 @@
 				<key>actionID</key>
 				<string>FileOpenAction</string>
 				<key>directID</key>
-				<string>/Applications/Visual Studio Code.app</string>
+				<string>/Applications/VSCodium.app</string>
 			</dict>
 			<key>enabled</key>
 			<true/>

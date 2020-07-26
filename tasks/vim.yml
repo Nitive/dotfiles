@@ -9,7 +9,7 @@
 
 - name: Link neovim config
   file:
-    src: "{{ playbook_dir }}/../files/nvimrc"
+    src: "{{ playbook_dir }}/../files/nvim.vimrc"
     path: ~/.config/nvim/init.vim
     state: link
     force: true

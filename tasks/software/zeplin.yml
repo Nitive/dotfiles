@@ -1,2 +1,0 @@
-- name: Install Zeplin
-  homebrew_cask: name=zeplin

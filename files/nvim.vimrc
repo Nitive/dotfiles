@@ -1,3 +1,4 @@
+if !exists('g:vscode')
 let mapleader = ','
 
 call plug#begin('~/.vim/plugged')
@@ -10,7 +11,6 @@ autocmd! BufWritePost * Neomake
 " File manager
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
-let g:nerdtree_tabs_open_on_console_startup=1
 nmap <leader><leader> :NERDTreeFind<CR>
 
 " Search in project
@@ -83,3 +83,4 @@ endif
 set keymap=russian-dvorak
 set iminsert=0
 set imsearch=0
+endif

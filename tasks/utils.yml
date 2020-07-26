@@ -6,3 +6,6 @@
 
 - name: Install tree (Utility to print files and folders as tree)
   homebrew: name=tree
+
+- name: Install jq
+  homebrew: name=jq
