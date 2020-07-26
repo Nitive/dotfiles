@@ -1,5 +1,6 @@
 - name: Install Quicksilver
-  homebrew_cask: name=quicksilver
+  homebrew_cask:
+    name: quicksilver
 
 - name: Create directory for Quicksilver preferences
   file:

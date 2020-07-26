@@ -1,2 +1,0 @@
-- name: Install AppCleaner
-  homebrew_cask: name=appcleaner

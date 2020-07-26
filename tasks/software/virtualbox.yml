@@ -1,2 +1,0 @@
-- name: Install Virtual Box
-  homebrew_cask: name=virtualbox

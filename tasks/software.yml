@@ -1,0 +1,27 @@
+- name: Install AppCleaner
+  homebrew_cask:
+    name: appcleaner
+
+- name: Install Brave Browser
+  homebrew_cask:
+    name: brave-browser
+
+- name: Install Docker
+  homebrew_cask:
+    name: docker
+
+- name: Install GPG Suite
+  homebrew_cask:
+    name: gpg-suite
+
+- name: Install IINA
+  homebrew_cask:
+    name: iina
+
+- name: Install Slack
+  homebrew_cask:
+    name: slack
+
+- name: Install Telegram
+  homebrew_cask:
+    name: telegram

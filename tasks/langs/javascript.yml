@@ -1,5 +1,0 @@
-- name: Install Node.js
-  homebrew: name=node
-
-- name: Install yarn
-  homebrew: name=yarn

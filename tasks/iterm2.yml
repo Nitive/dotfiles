@@ -1,5 +1,7 @@
-- name: Install iTerm 2
-  homebrew_cask: name=iterm2
+# ???
+# - name: Install iTerm 2
+#   homebrew_cask:
+#     name: iterm2
 
 - name: Create directory for iTerm preferences
   file:

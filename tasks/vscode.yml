@@ -1,5 +1,6 @@
-- name: Install VS Code
-  homebrew_cask: name=visual-studio-code
+- name: Install VSCodium
+  homebrew_cask:
+    name: vscodium
 
 - name: Create folder for vscode settings
   file:
@@ -41,24 +42,39 @@
 
 - name: Install VSCode extensions
   vscode:
+    executable: codium
     extensions:
-      - EditorConfig.EditorConfig
-      - Orta.vscode-jest
-      - QassimFarid.ejs-language-support
-      - WakaTime.vscode-wakatime
-      - abierbaum.vscode-file-peek
       - akamud.vscode-theme-onedark
+      - asvetliakov.vscode-neovim
+      - bmalehorn.vscode-fish
       - dbaeumer.vscode-eslint
-      - eg2.tslint
-      - ionutvmi.path-autocomplete
-      - mrmlnc.vscode-duplicate
-      - mrmlnc.vscode-stylefmt
-      - msjsdiag.debugger-for-chrome
-      - gcazaciuc.vscode-flow-ide
-      - shinnn.stylelint
-      - vscodevim.vim
-      - waderyan.gitblame
-      - tomhultonharrop.switch-corresponding # switch between js/css, h/cpp files
-      - mgmcdermott.vscode-language-babel
+      - denoland.vscode-deno
+      - DotJoshJohnson.xml
       - eamodio.gitlens
-      - pflannery.vscode-versionlens
+      - EditorConfig.EditorConfig
+      - esbenp.prettier-vscode
+      - esbenp.prettier-vscode
+      - foxundermoon.shell-format
+      - golang.go
+      - hashicorp.terraform
+      - heptio.jsonnet
+      - janjoerke.jenkins-pipeline-linter-connector
+      - me-dutour-mathieu.vscode-github-actions
+      - mgmcdermott.vscode-language-babel
+      - mrmlnc.vscode-stylefmt
+      - ms-azuretools.vscode-docker
+      - ms-kubernetes-tools.vscode-kubernetes-tools
+      - msjsdiag.debugger-for-chrome
+      - QassimFarid.ejs-language-support
+      - redhat.java
+      - redhat.vscode-yaml
+      - richie5um2.vscode-sort-json
+      - rust-lang.rust
+      - silvenon.mdx
+      - tsandall.opa
+      - vscodevim.vim
+      - vscoss.vscode-ansible
+      - WakaTime.vscode-wakatime
+      - WallabyJs.quokka-vscode
+      - william-voyek.vscode-nginx
+      - xrc-inc.jsonnet-formatter

@@ -1,5 +1,8 @@
-- name: Install Karabiner Elements
-  homebrew_cask: name=karabiner-elements
+# Update can break Input Source changing via Left and Right CMD
+# 
+# - name: Install Karabiner Elements
+#   homebrew_cask:
+#     name: karabiner-elements
 
 - name: Link karabiner config
   file:

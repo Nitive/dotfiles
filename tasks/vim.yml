@@ -1,5 +1,6 @@
 - name: Install Neovim
-  homebrew: name=neovim
+  homebrew:
+    name: neovim
   when: ansible_os_family == 'Darwin'
 
 - name: Create directory for config

@@ -1,5 +1,6 @@
 - name: Install Firefox
-  homebrew_cask: name=firefox
+  homebrew_cask:
+    name: firefox
 
 - name: Disable safe mode key (alt) to allow run Firefox with Alt+B hotkey
   file:

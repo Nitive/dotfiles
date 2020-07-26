@@ -1,5 +1,6 @@
 - name: Install Spectacle
-  homebrew_cask: name=spectacle
+  homebrew_cask:
+    name: spectacle
 
 - name: Link Spectacle keybindings
   file:

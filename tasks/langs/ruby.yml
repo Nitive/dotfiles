@@ -1,2 +1,0 @@
-- name: Install Ruby
-  homebrew: name=ruby
