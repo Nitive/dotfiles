@@ -7,6 +7,9 @@ set fish_greeting
 # set -o vi
 fish_vi_key_bindings
 
+# Editor
+export EDITOR="nvim"
+
 # Node.js
 export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
