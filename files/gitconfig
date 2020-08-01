@@ -46,3 +46,7 @@
 	textconv = sops -d
 [fetch]
 	prune = true
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
