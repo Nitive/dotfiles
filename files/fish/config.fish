@@ -19,6 +19,9 @@ export PATH="/usr/local/bin:$PATH"
 # Go
 export PATH="$HOME/go/bin:$PATH"
 
+# Kubernetes
+export PATH="$PATH:$HOME/.krew/bin"
+
 # Rust
 source $HOME/.cargo/env
 
