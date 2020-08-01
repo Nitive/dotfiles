@@ -19,7 +19,9 @@ alias gsta='git stash push'
 alias gstaa='git stash apply'
 alias gl='git pull'
 alias gf='git fetch'
+alias gup='git pull --rebase'
 alias gb='git branch'
+alias ggsup='git branch --set-upstream-to=origin/$git_current_branch'
 
 function gbdl
   echo "This branches will be removed"
