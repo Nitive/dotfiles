@@ -4,7 +4,7 @@ function fish_prompt
     end
 
     set_color $fish_color_cwd
-    printf '\n%s' (prompt_pwd)
+    printf ' \n%s' (prompt_pwd)
     set_color normal
 
     set_color yellow

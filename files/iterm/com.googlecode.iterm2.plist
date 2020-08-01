@@ -59054,6 +59054,8 @@
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>JiggleTTYSizeOnClearBuffer</key>
+	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
@@ -59118,9 +59120,9 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>155 593 592 584 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>843 0 834 1027 0 0 1680 1027 </string>
+	<string>843 41 1063 986 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>842 589 570 438 0 0 1680 1027 </string>
+	<string>843 0 834 1027 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
 	<string>436 675 570 428 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -60765,14 +60767,15 @@
 	<array>
 		<string>3.3.6</string>
 		<string>3.3.11</string>
+		<string>3.3.12</string>
 		<string>3.3.4</string>
 		<string>3.3.1</string>
 		<string>3.3.3</string>
 		<string>3.3.5</string>
 		<string>3.3.9</string>
-		<string>3.3.0</string>
 		<string>3.2.9</string>
 		<string>3.3.2</string>
+		<string>3.3.0</string>
 	</array>
 	<key>NoSyncAutoBurialReveal</key>
 	<true/>
@@ -60803,7 +60806,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>564325441.18357396</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>232</integer>
+	<integer>238</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -61649,7 +61652,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-07-26T08:38:23Z</date>
+	<date>2020-08-01T14:37:25Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
@@ -61685,7 +61688,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.11</string>
+	<string>3.3.12</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
