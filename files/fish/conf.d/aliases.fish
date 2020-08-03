@@ -38,6 +38,9 @@ function kuc
   kubectl config use-context $argv[1] && \
   kubectl config set-context --current --namespace=$argv[2]
 end
+function kun
+  kubectl config set-context --current --namespace=$argv[1]
+end
 
 
 # Other
