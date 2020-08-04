@@ -1,5 +1,8 @@
 # Git
-set git_current_branch (git symbolic-ref HEAD 2>/dev/null | sed 's/refs\/heads\///')
+function git_current_branch
+  git symbolic-ref HEAD 2>/dev/null | sed 's/refs\/heads\///'
+end
+
 alias gfp='git push --force-with-lease'
 alias gst='git status'
 alias gp='git push'
@@ -14,14 +17,14 @@ alias grbi='git rebase -i'
 alias glg='git log --stat'
 alias glog='git log --oneline --decorate --graph'
 alias 'gc!'='git commit -v --amend'
-alias gpsup="git push --set-upstream origin $git_current_branch"
+alias gpsup="git push --set-upstream origin (git_current_branch)"
 alias gsta='git stash push'
 alias gstaa='git stash apply'
 alias gl='git pull'
 alias gf='git fetch'
 alias gup='git pull --rebase'
 alias gb='git branch'
-alias ggsup='git branch --set-upstream-to=origin/$git_current_branch'
+alias ggsup="git branch --set-upstream-to=origin/(git_current_branch)"
 
 function gbdl
   echo "This branches will be removed"
