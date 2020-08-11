@@ -54,7 +54,20 @@ alias nts="nvim ~/Desktop/notes.md"
 alias vim="nvim"
 alias code="codium" # https://vscodium.com/
 
+# Like `watch` but in current shell
 function wa
-  # Workaround to get aliases working
-  watch "fish -c '$argv'"
+  while true
+    $argv | read -z result
+    clear
+    set now (date)
+    echo "$now"
+    echo
+    set_color magenta
+    printf "\$"
+    set_color cyan
+    echo " $argv"
+    set_color normal
+    echo "$result"
+    sleep 2
+  end
 end
