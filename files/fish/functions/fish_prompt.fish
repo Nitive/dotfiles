@@ -1,4 +1,5 @@
 function fish_prompt
+    set -l last_status $status
     if not set -q VIRTUAL_ENV_DISABLE_PROMPT
         set -g VIRTUAL_ENV_DISABLE_PROMPT true
     end
@@ -20,6 +21,18 @@ function fish_prompt
     if test $VIRTUAL_ENV
         printf "(%s) " (set_color blue)(basename $VIRTUAL_ENV)(set_color normal)
     end
-    printf '$ '
+
+    if [ "$last_status" != "0" ]
+      set_color red
+      printf '$'
+      if [ "$last_status" != "1" ]
+        printf " ($last_status)"
+      end
+      set_color normal
+    else
+      printf '$'
+    end
+    printf ' '
+
     set_color normal
 end
