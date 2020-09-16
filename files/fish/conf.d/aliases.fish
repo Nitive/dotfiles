@@ -29,10 +29,11 @@ alias ggsup="git branch --set-upstream-to=origin/(git_current_branch)"
 
 function gbdl
   echo "This branches will be removed"
-  set branches "(gb --no-color --format='%(refname:short)' | grep -v "(current_branch)")"
-  echo "$branches\n"
-  read "?Press enter to continue "
-  echo "$branches" | xargs git branch -D
+  set branches (gb --no-color --format='%(refname:short)' | grep -v (git_current_branch))
+  echo $branches
+  echo "Press enter to continue"
+  read confirm
+  echo $branches | xargs git branch -D
 end
 
 
