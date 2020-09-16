@@ -35,9 +35,7 @@ set -g fish_user_paths "/usr/local/opt/openssl@1.1/bin" $fish_user_paths
 tabs -4
 
 # CSSSR config
-set configs $KUBECONFIG $HOME/.config/csssr/kube-configs/*.yaml
-export KUBECONFIG=(string join ':' $configs)
-set -e configs
+source $HOME/.config/csssr/non-breaking-profile-fish
 
 function fish_mode_prompt
 end
