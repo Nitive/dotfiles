@@ -5,5 +5,5 @@ function __complete_vault
     and set COMP_LINE "$COMP_LINE "
     /usr/local/bin/vault
 end
-complete -c vault -a "(__complete_vault)"
+complete -c vault -f -a "(__complete_vault)"
 
