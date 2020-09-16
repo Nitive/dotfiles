@@ -5,3 +5,7 @@
 - name: Install Yarn
   asdf:
     plugin: yarn
+
+- name: Install Deno
+  asdf:
+    plugin: deno
