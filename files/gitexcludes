@@ -8,3 +8,4 @@
 .realsync
 playground/
 .tool-versions
+.sublime_import_map.json
