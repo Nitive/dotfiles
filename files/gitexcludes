@@ -7,3 +7,4 @@
 *.icloud
 .realsync
 playground/
+.tool-versions
