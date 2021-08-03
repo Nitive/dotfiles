@@ -54,3 +54,6 @@ export GATSBY_TELEMETRY_DISABLED=1
 export HOMEBREW_NO_ANALYTICS=1
 export STNOUPGRADE=1
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+export PATH="$HOME/Develop/kubectl-grep/bin:$PATH"
+export KUBECTL_GREP_PASS_OUTPUT="bat --language yaml --style plain --color always"
