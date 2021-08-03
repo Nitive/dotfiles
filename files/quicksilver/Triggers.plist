@@ -132,7 +132,7 @@
 				<string>org.blenderfoundation.blender</string>
 			</array>
 			<key>applicationScopeType</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>command</key>
 			<dict>
 				<key>actionID</key>
@@ -140,6 +140,8 @@
 				<key>directID</key>
 				<string>/Applications/Brave Browser.app</string>
 			</dict>
+			<key>delay</key>
+			<false/>
 			<key>enabled</key>
 			<true/>
 			<key>keyCode</key>
@@ -178,7 +180,7 @@
 				<string>/Applications/Firefox.app</string>
 			</dict>
 			<key>enabled</key>
-			<true/>
+			<false/>
 			<key>onPress</key>
 			<true/>
 			<key>type</key>
@@ -195,7 +197,7 @@
 				<string>/Applications/Google Chrome.app</string>
 			</dict>
 			<key>enabled</key>
-			<true/>
+			<false/>
 			<key>keyCode</key>
 			<integer>32</integer>
 			<key>modifiers</key>
