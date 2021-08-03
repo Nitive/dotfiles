@@ -24,10 +24,14 @@ export PATH="$PATH:$GOPATH/bin"
 export PATH="$PATH:$HOME/.krew/bin"
 
 # Rust
-source $HOME/.cargo/env
+source "$HOME/.cargo/env"
 
 # https://github.com/asdf-vm/asdf
 source /usr/local/opt/asdf/asdf.fish
+
+# Deno
+export DENO_DIR="$HOME/Library/Caches/deno"
+export PATH="$HOME/.deno/bin:$PATH"
 
 # OpenSSL
 set -g fish_user_paths "/usr/local/opt/openssl@1.1/bin" $fish_user_paths
