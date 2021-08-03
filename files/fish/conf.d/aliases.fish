@@ -26,11 +26,14 @@ alias gf='git fetch'
 alias gup='git pull --rebase'
 alias gb='git branch'
 alias ggsup="git branch --set-upstream-to=origin/(git_current_branch)"
+alias gcp="git cherry-pick"
+alias gm="git merge"
+alias gmff="git merge --ff-only"
 
 function gbdl
   echo "This branches will be removed"
   set branches (gb --no-color --format='%(refname:short)' | grep -v (git_current_branch))
-  echo $branches
+  printf '%s\n' $branches
   echo "Press enter to continue"
   read confirm
   echo $branches | xargs git branch -D
