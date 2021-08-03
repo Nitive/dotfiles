@@ -41,7 +41,10 @@ export SSLKEYLOGFILE="$HOME/.ssl-key.log"
 tabs -4
 
 # CSSSR config
-source $HOME/.config/csssr/non-breaking-profile-fish
+source "$HOME/.config/csssr/non-breaking-profile-fish"
 
 function fish_mode_prompt
 end
+
+# Bind m in command vi mode to opening current command in editor
+bind --mode default m edit_command_buffer
