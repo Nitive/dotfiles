@@ -39,6 +39,31 @@ function gbdl
   echo $branches | xargs git branch -D
 end
 
+function pr_from_commit
+  git status
+
+  echo "Commit:"
+  read commit
+
+  echo "Branch:"
+  read branch
+
+  echo "Base branch:"
+  read base_branch
+
+  git fetch
+  git checkout -b "$branch" "origin/$base_branch"
+
+  git cherry-pick "$commit"
+
+  gpsup # see alias above
+
+  echo "Press enter to continue"
+  read confirm
+
+  gh pr create --fill
+end
+
 
 # Kubernetes
 alias k="kubectl"
