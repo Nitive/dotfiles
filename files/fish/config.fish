@@ -35,6 +35,7 @@ export PATH="$HOME/.deno/bin:$PATH"
 
 # OpenSSL
 set -g fish_user_paths "/usr/local/opt/openssl@1.1/bin" $fish_user_paths
+export SSLKEYLOGFILE="$HOME/.ssl-key.log"
 
 # Set tab size to 4 spaces
 tabs -4
