@@ -17,7 +17,8 @@ export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 
 # Go
-export PATH="$HOME/go/bin:$PATH"
+export GOPATH=(asdf where golang)/packages
+export PATH="$PATH:$GOPATH/bin"
 
 # Kubernetes
 export PATH="$PATH:$HOME/.krew/bin"
