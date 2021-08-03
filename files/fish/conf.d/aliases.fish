@@ -82,6 +82,7 @@ alias pl="cd ~/Desktop/playground"
 alias nts="nvim ~/Desktop/notes.md"
 alias vim="nvim"
 alias code="codium" # https://vscodium.com/
+alias dg="dig +noall +answer"
 
 # Like `watch` but in current shell
 function wa
