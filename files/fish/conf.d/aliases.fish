@@ -67,13 +67,35 @@ end
 
 # Kubernetes
 alias k="kubectl"
-function kuc
-  kubectl config use-context $argv[1] && \
-  kubectl config set-context --current --namespace=$argv[2]
+
+# Interactive command to select context
+function kc
+  nohup fish -c 'kc-update-cache' > /dev/null &; disown
+
+  set -l selected_context (cat "$HOME/.local/share/kubectl-switch-cache/contexts-names" | fzf) || return 0
+  kubectl config use-context "$selected_context"
 end
-function kun
-  kubectl config set-context --current --namespace=$argv[1]
+
+function kc-update-cache
+  mkdir -p "$HOME/.local/share/kubectl-switch-cache"
+  kubectl config get-contexts -o name > "$HOME/.local/share/kubectl-switch-cache/contexts-names"
 end
+
+# Interactive command to select namespace
+function kns
+  nohup fish -c 'kns-update-cache' > /dev/null &; disown
+
+  set -l selected_namespace (cat "$HOME/.local/share/kubectl-switch-cache/namespaces-in-contexts/(kubectl-current-context -o context)" | fzf) || return 0
+  kubectl config set-context --current --namespace="$selected_namespace"
+end
+
+function kns-update-cache
+  mkdir -p "$HOME/.local/share/kubectl-switch-cache/namespaces-in-contexts"
+  kubectl get ns -o json | jq .items[].metadata.name -r > "$HOME/.local/share/kubectl-switch-cache/namespaces-in-contexts/(kubectl-current-context -o context)"
+end
+
+# Helm upgrade with with helm-deno, helm-secrets and helm-diff
+alias hug="$HOME/Work/csssr-infrastructure/scripts/helm-upgrade.sh"
 
 
 # Other
