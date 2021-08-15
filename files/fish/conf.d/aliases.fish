@@ -85,13 +85,15 @@ end
 function kns
   nohup fish -c 'kns-update-cache' > /dev/null &; disown
 
-  set -l selected_namespace (cat "$HOME/.local/share/kubectl-switch-cache/namespaces-in-contexts/(kubectl-current-context -o context)" | fzf) || return 0
+  set -l current_context (kubectl-current-context -o context)
+  set -l selected_namespace (cat "$HOME/.local/share/kubectl-switch-cache/namespaces-in-contexts/$current_context" | fzf) || return 0
   kubectl config set-context --current --namespace="$selected_namespace"
 end
 
 function kns-update-cache
   mkdir -p "$HOME/.local/share/kubectl-switch-cache/namespaces-in-contexts"
-  kubectl get ns -o json | jq .items[].metadata.name -r > "$HOME/.local/share/kubectl-switch-cache/namespaces-in-contexts/(kubectl-current-context -o context)"
+  set -l current_context (kubectl-current-context -o context)
+  kubectl get ns -o json | jq .items[].metadata.name -r > "$HOME/.local/share/kubectl-switch-cache/namespaces-in-contexts/$current_context"
 end
 
 # Helm upgrade with with helm-deno, helm-secrets and helm-diff
