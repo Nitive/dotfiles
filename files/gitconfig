@@ -4,7 +4,7 @@
 	autocrlf = false
 	safecrlf = true
 	mergetool = vimdiff
-	pager = delta --dark
+	pager = diff-so-fancy | less --tabs=2 -RFX
 	editor = nvim -n
 	whitespace = cr-at-eol
 	ignorecase = false
@@ -36,6 +36,7 @@
 	tool = vimdiff
 [diff]
 	compactionHeuristic = true
+	external = difft
 [branch]
 	autoSetupMerge = false
 [commit]
@@ -50,3 +51,5 @@
 	ff = only
 [init]
 	defaultBranch = main
+[interactive]
+	diffFilter = diff-so-fancy --patch
