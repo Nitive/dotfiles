@@ -1,3 +1,16 @@
 - name: Install asdf package manager
   homebrew:
     name: asdf
+
+- name: Install asdf plugins
+  shell: |
+    asdf plugin add deno         https://github.com/asdf-community/asdf-deno.git || echo "Already installed"
+    asdf plugin add helm         https://github.com/Antiarchitect/asdf-helm.git || echo "Already installed"
+    asdf plugin add java         https://github.com/halcyon/asdf-java.git || echo "Already installed"
+    asdf plugin add kubebuilder  https://github.com/virtualstaticvoid/asdf-kubebuilder.git || echo "Already installed"
+    asdf plugin add kubectl      https://github.com/Banno/asdf-kubectl.git || echo "Already installed"
+    asdf plugin add nodejs       https://github.com/asdf-vm/asdf-nodejs.git || echo "Already installed"
+    asdf plugin add operator-sdk https://github.com/gp42/asdf-operator-sdk || echo "Already installed"
+    asdf plugin add rust         https://github.com/asdf-community/asdf-rust.git || echo "Already installed"
+    asdf plugin add terraform    https://github.com/asdf-community/asdf-hashicorp.git || echo "Already installed"
+    asdf plugin add yarn         https://github.com/twuni/asdf-yarn.git || echo "Already installed"
