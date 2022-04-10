@@ -108,7 +108,7 @@ export VAULT_ADDR="https://vault.csssr.com:8200"
 export LOKI_ADDR=https://log.csssr.com
 export LOKI_BEARER_TOKEN=(yq eval '.["github.com"].oauth_token' ~/.config/gh/hosts.yml)
 
-
+# https://github.com/Nitive/kubectl-grep
 export PATH="$HOME/Develop/kubectl-grep/bin:$PATH"
 export KUBECTL_GREP_PASS_OUTPUT="bat --language yaml --style plain --color always"
 
@@ -126,3 +126,10 @@ export PATH="$HOME/.radicle/bin:$PATH"
 # Google Cloud
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+
+# Do Not Track
+export DO_NOT_TRACK=1
+export GATSBY_TELEMETRY_DISABLED=1
+export HOMEBREW_NO_ANALYTICS=1
+export STNOUPGRADE=1
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
