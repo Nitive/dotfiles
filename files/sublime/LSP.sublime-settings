@@ -1,0 +1,17 @@
+{
+	"clients":
+	{
+		"gopls":
+		{
+			"enabled": false,
+		},
+		"Deno":
+		{
+			"enabled": false,
+		},
+		"LSP-typescript":
+		{
+			"enabled": false,
+		},
+	},
+}

@@ -1,0 +1,3 @@
+{
+	"cmd": ["zsh", "-c", "source ~/.zshrc && ./node_modules/.bin/ts-node --transpile-only $file"]
+}

@@ -1,0 +1,20 @@
+# - name: Install Sublime Text
+#   homebrew_cask:
+#     name: sublime-text
+
+# - name: Install Sublime Merge
+#   homebrew_cask:
+#     name: sublime-merge
+
+
+- name: Create folder for Sublime Text settings
+  file:
+    path: "~/Library/Application Support/Sublime Text 3/Packages/"
+    state: directory
+
+- name: Link Sublime Text settings
+  file:
+    src: "{{ playbook_dir }}/../files/sublime"
+    dest: "~/Library/Application Support/Sublime Text 3/Packages/User"
+    state: link
+    force: true

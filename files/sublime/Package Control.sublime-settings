@@ -1,0 +1,11 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"JsPrettier",
+		"Package Control",
+	],
+	"in_process_packages":
+	[
+	],
+}

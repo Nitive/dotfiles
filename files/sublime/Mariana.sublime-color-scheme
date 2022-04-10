@@ -1,0 +1,9 @@
+{
+	"rules":
+	[
+		{
+			"foreground": "#fff",
+			"scope": "quokka"
+		}
+	]
+}

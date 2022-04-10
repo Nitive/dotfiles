@@ -1,0 +1,10 @@
+{
+  "ignored_packages": [],
+  "color_scheme": "Mariana.sublime-color-scheme",
+  "theme": "Adaptive.sublime-theme",
+  "font_face": "Fira Code",
+  "font_size": 13,
+  "tab_size": 2,
+  "rulers": [120],
+  "draw_white_space": "all"
+}

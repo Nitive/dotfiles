@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[export ]]></content>
+	<tabTrigger>ex</tabTrigger>
+	<!-- <scope>source.typescript</scope> -->
+</snippet>
