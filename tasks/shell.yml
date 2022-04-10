@@ -14,11 +14,18 @@
     state: link
     force: true
 
-- name: Set default shell to fish
+- name: Link .zshrc
+  file:
+    src: "{{ playbook_dir }}/../files/zsh/zshrc.sh"
+    dest: ~/.zshrc
+    state: link
+    force: true
+
+- name: Set default shell to zsh
   become: true
   user:
     name: "{{ ansible_user_id }}"
-    shell: /usr/local/bin/fish
+    shell: /usr/local/bin/zsh
   tags:
     - require_password
 
