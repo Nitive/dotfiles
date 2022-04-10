@@ -2,17 +2,13 @@
   homebrew:
     name: git
 
-- name: Install hub
-  homebrew:
-    name: hub
-
-- name: Install Git Extras
-  homebrew:
-    name: git-extras
-
 - name: Install Git Lfs
   homebrew:
     name: git-lfs
+
+- name: Install GitHub CLI
+  homebrew:
+    name: gh
 
 - name: Link gitconfig
   file:
