@@ -1,3 +1,0 @@
-- name: Install operator-sdk
-  asdf:
-    plugin: operator-sdk

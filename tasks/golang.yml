@@ -1,3 +1,0 @@
-- name: Install Go
-  asdf:
-    plugin: golang

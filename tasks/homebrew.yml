@@ -1,0 +1,29 @@
+- name: Install homebrew packages
+  homebrew:
+    name: "{{ item }}"
+  with_items:
+    - cloc
+    - tree
+    - jq
+    - yq
+    - diff-so-fancy
+    - curl
+
+- name: Install Homebrew casks
+  homebrew_cask:
+    name: "{{ item }}"
+  with_items:
+    - appcleaner
+    - brave-browser
+    - docker
+    - gpg-suite
+    - iina
+    - slack
+    - telegram
+    - spotify
+    - steam
+    - sublime-text
+    - sublime-merge
+    - ueli
+    - ukelele
+    - wireshark
