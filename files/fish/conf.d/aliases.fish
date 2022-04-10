@@ -97,9 +97,12 @@ function kns
 end
 
 function kns-update-cache
-  mkdir -p "$HOME/.local/share/kubectl-switch-cache/namespaces-in-contexts"
+  set -l cache_dir_path "$HOME/.local/share/kubectl-switch-cache/namespaces-in-contexts"
+  mkdir -p "$cache_dir_path"
   set -l current_context (kubectl-current-context -o context)
-  kubectl get ns -o json | jq .items[].metadata.name -r > "$HOME/.local/share/kubectl-switch-cache/namespaces-in-contexts/$current_context"
+  kubectl get ns -o json | jq .items[].metadata.name -r > "$cache_dir_path/$current_context.tmp"
+  cat "$cache_dir_path/$current_context.tmp" > "$cache_dir_path/$current_context"
+  rm "$cache_dir_path/$current_context.tmp"
 end
 
 # Helm upgrade with with helm-deno, helm-secrets and helm-diff
