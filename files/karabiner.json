@@ -53,7 +53,7 @@
             ]
           },
           {
-            "description": "Caps-O to open iTerm",
+            "description": "Caps-O to open Terminal",
             "manipulators": [
               {
                 "from": {
@@ -64,7 +64,7 @@
                 },
                 "to": [
                   {
-                    "shell_command": "open -a 'iTerm'"
+                    "shell_command": "open -a 'Warp'"
                   }
                 ],
                 "type": "basic"
@@ -102,7 +102,7 @@
                 },
                 "to": [
                   {
-                    "shell_command": "open -a 'VSCodium'"
+                    "shell_command": "open -a 'Sublime Text'"
                   }
                 ],
                 "type": "basic"
@@ -206,6 +206,33 @@
               }
             ]
           },
+          {
+            "description": "Alt_L change input source to Georgian",
+            "manipulators": [
+              {
+                "from": {
+                  "key_code": "left_alt",
+                  "modifiers": {
+                    "optional": ["any"]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "left_alt"
+                  }
+                ],
+                "to_if_alone": [
+                  {
+                    "select_input_source": {
+                      "language": "ka"
+                    }
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+
           {
             "description": "Caps Lock to Fn",
             "manipulators": [
