@@ -1,0 +1,6 @@
+ - name: Link ssh config
+  file:
+    src: "{{ playbook_dir }}/../files/ssh/config"
+    dest: ~/.ssh/config
+    state: link
+    force: true
