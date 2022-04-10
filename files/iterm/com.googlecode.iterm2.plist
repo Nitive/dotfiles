@@ -58929,6 +58929,8 @@
 	<string>61ACB1B2-A1B4-4946-AEC5-F30154F0805E</string>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>EnableAPIServer</key>
+	<true/>
 	<key>EnableDivisionView</key>
 	<true/>
 	<key>FlashTabBarInFullscreen</key>
@@ -60424,6 +60426,8 @@
 			<key>Normal Font</key>
 			<string>FiraCode-Light 13</string>
 			<key>Only The Default BG Color Uses Transparency</key>
+			<false/>
+			<key>Open Password Manager Automatically</key>
 			<false/>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
