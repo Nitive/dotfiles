@@ -71,14 +71,20 @@ alias k="kubectl"
 # Interactive command to select context
 function kc
   nohup fish -c 'kc-update-cache' > /dev/null &; disown
+  nohup fish -c 'kns-update-cache' > /dev/null &; disown
 
   set -l selected_context (cat "$HOME/.local/share/kubectl-switch-cache/contexts-names" | fzf) || return 0
   kubectl config use-context "$selected_context"
+
+  kns
 end
 
 function kc-update-cache
-  mkdir -p "$HOME/.local/share/kubectl-switch-cache"
-  kubectl config get-contexts -o name > "$HOME/.local/share/kubectl-switch-cache/contexts-names"
+  set -l cache_dir_path "$HOME/.local/share/kubectl-switch-cache"
+  mkdir -p "$cache_dir_path"
+  kubectl config get-contexts -o name > "$cache_dir_path/contexts-names.tmp"
+  cat "$cache_dir_path/contexts-names.tmp" > "$cache_dir_path/contexts-names"
+  rm "$cache_dir_path/contexts-names.tmp"
 end
 
 # Interactive command to select namespace
