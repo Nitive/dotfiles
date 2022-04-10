@@ -1,0 +1,8 @@
+- name: Install custom keyboard layouts
+  file:
+    src: "{{ playbook_dir }}/../files/Keyboard Layouts.bundle"
+    path: "/Library/Keyboard Layouts/Custom Keyboard Layouts.bundle"
+    state: link
+    force: true
+  tags:
+    - require_password
