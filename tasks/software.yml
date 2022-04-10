@@ -25,3 +25,31 @@
 - name: Install Telegram
   homebrew_cask:
     name: telegram
+
+- name: Install Spotify
+  homebrew_cask:
+    name: spotify
+
+- name: Install Steam
+  homebrew_cask:
+    name: steam
+
+- name: Install Sublime Text
+  homebrew_cask:
+    name: sublime-text
+
+- name: Install Sublime Merge
+  homebrew_cask:
+    name: sublime-merge
+
+- name: Install Sublime Merge
+  homebrew_cask:
+    name: ueli
+
+- name: Install Ukelele
+  homebrew_cask:
+    name: ukelele
+
+- name: Install Wireshark
+  homebrew_cask:
+    name: wireshark

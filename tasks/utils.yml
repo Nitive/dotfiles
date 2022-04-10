@@ -9,3 +9,15 @@
 - name: Install jq
   homebrew:
     name: jq
+
+- name: Install yq
+  homebrew:
+    name: yq
+
+- name: Install diff-so-fancy
+  homebrew:
+    name: diff-so-fancy
+
+- name: Install latest version of curl
+  homebrew:
+    name: curl
