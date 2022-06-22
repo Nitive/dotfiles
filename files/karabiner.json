@@ -15,6 +15,25 @@
         },
         "rules": [
           {
+            "description": "Caps-X to open Discord",
+            "manipulators": [
+              {
+               "from": {
+                  "key_code": "b",
+                  "modifiers": {
+                    "mandatory": ["fn"]
+                  }
+                },
+                "to": [
+                  {
+                    "shell_command": "open -a 'Discord'"
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+          {
             "description": "Caps-A to open Spotify",
             "manipulators": [
               {
@@ -34,7 +53,7 @@
             ]
           },
           {
-            "description": "Caps-N to open Brave",
+            "description": "Caps-N to open Firefox",
             "manipulators": [
               {
                 "from": {
@@ -45,7 +64,7 @@
                 },
                 "to": [
                   {
-                    "shell_command": "open -a 'Brave Browser'"
+                    "shell_command": "open -a 'Firefox'"
                   }
                 ],
                 "type": "basic"
