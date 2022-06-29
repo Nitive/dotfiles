@@ -1,8 +1,6 @@
 # Dotfiles
 
-> The machines must suffer
-
-![ButovoDynamics](./all-machines-must-suffer.jpg)
+![Warp terminal screenshot](./terminal.png)
 
 ## Requirements
 
